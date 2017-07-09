@@ -1,0 +1,10 @@
+The files eggtrayicon.h and eggtrayicon.cpp in this directory come
+from the libegg library (a library of GTK+ and Gnome add-ons,
+containing features that often later get incorporated in GTK+ or
+Gnome), and are released by the copyright owners under the GNU Lesser
+General Public License, version 2.  See eggtrayicon.h and
+eggtrayicon.cpp files for particulars.
+
+The particular versions of those files in this directory are taken
+from the Gaim instant messaging client (they will compile with
+GTK+-2.0 - the versions in libegg CVS require a minimum of GTK+-2.2).
