@@ -1,0 +1,9 @@
+For more information and a list of requirements
+please consult the README file.
+
+INSTALLATION
+
+    ./configure
+    make
+    su root
+    make install
