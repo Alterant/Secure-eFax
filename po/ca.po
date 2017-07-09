@@ -1,0 +1,2608 @@
+# Catalan translation of Efax-gtk ver. 3.0.15
+# Copyright (C) 2007 Chris Vine.
+# This file is distributed under the same license as the Efax-gtk package.
+# Jordi Sayol <jordisayol@gmail.com>, 2007.
+#
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Efax-gtk\n"
+"Report-Msgid-Bugs-To: cvine@users.sourceforge.net\n"
+"POT-Creation-Date: 2008-03-27 10:34+0000\n"
+"PO-Revision-Date: 2007-08-12 22:15+0100\n"
+"Last-Translator: Jordi Sayol <jordisayol@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Catalan\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: src/addressbook.cpp:99
+msgid "efax-gtk: Address book"
+msgstr "efax-gtk: Llibreta d'adreces"
+
+#: src/addressbook.cpp:146
+msgid "Name"
+msgstr "Nom"
+
+#: src/addressbook.cpp:152
+msgid "Number"
+msgstr "Número"
+
+#: src/addressbook.cpp:221
+msgid "Add new address"
+msgstr "Crea una nova adreça"
+
+#: src/addressbook.cpp:222
+msgid "Delete address"
+msgstr "Esborra adreça"
+
+#: src/addressbook.cpp:223
+msgid "Move address up"
+msgstr "Mou adreça amunt"
+
+#: src/addressbook.cpp:224
+msgid "Move address down"
+msgstr "Mou adreça avall"
+
+#: src/addressbook.cpp:328
+msgid "Delete selected address?"
+msgstr "Voleu esborrar l'adreça seleccionada?"
+
+#: src/addressbook.cpp:329
+msgid "efax-gtk: Delete address"
+msgstr "efax-gtk: esborrar l'adreça"
+
+#: src/addressbook.cpp:578
+msgid "efax-gtk: Add address"
+msgstr "efax-gtk: crear adreça"
+
+#: src/addressbook.cpp:585
+msgid "Name:"
+msgstr "Nom:"
+
+#: src/addressbook.cpp:586
+msgid "Number:"
+msgstr "Número:"
+
+#: src/dialogs.cpp:45 src/dialogs.cpp:111 src/settings.cpp:1976
+msgid "View"
+msgstr "Visualitza"
+
+#: src/dialogs.cpp:87
+msgid "efax-gtk: File to fax"
+msgstr "efax-gtk: fitxer a enviar per fax"
+
+#: src/dialogs.cpp:390
+msgid "efax-gtk: Conditions, Notices and Disclaimers"
+msgstr "efax-gtk: condicions, avisos i renúncies"
+
+#: src/dialogs.cpp:396 src/dialogs.cpp:481
+msgid "Accept"
+msgstr "Accepta"
+
+#: src/dialogs.cpp:397 src/dialogs.cpp:482
+msgid "Reject"
+msgstr "Rebutja"
+
+#: src/dialogs.cpp:399
+msgid "Do you accept the Conditions, Notices and Disclaimers shown above?"
+msgstr "Accepteu les condicions, avisos i renúncies mostrades a dalt?"
+
+#: src/efax_controller.cpp:68 src/mainwindow.cpp:2057 src/tray_icon.cpp:214
+msgid "Inactive"
+msgstr "Inactiu"
+
+#: src/efax_controller.cpp:69 src/efax_controller.cpp:73
+#: src/efax_controller.cpp:74
+msgid "Sending fax"
+msgstr "Enviant fax"
+
+#: src/efax_controller.cpp:70 src/efax_controller.cpp:71
+msgid "Answering call"
+msgstr "Responent a la trucada"
+
+#: src/efax_controller.cpp:72
+msgid "Standing by to receive calls"
+msgstr "A l'espera de rebre trucades"
+
+#: src/efax_controller.cpp:140
+msgid "Cannot send fax - a fax is being received\n"
+msgstr "No és possible enviar el fax - s'està rebent un fax\n"
+
+#: src/efax_controller.cpp:366
+msgid "Not valid file name\n"
+msgstr "Nom de fitxer no vàlid\n"
+
+#: src/efax_controller.cpp:379
+msgid "File does not exist\n"
+msgstr "El fitxer no existeix\n"
+
+#: src/efax_controller.cpp:392
+msgid "User does not have read permission on the file\n"
+msgstr "L'usuari no té permís per llegir el fitxer\n"
+
+#: src/efax_controller.cpp:577
+msgid "Not valid postscript file\n"
+msgstr "Fitxer postscript no vàlid\n"
+
+#: src/efax_controller.cpp:643
+msgid "You don't have the $HOME environmental variable set\n"
+msgstr "No teniu la variable d'entorn $HOME fixada\n"
+
+#: src/efax_controller.cpp:655
+msgid ""
+"SERIOUS SYSTEM ERROR: Can't create directory to save received faxes.\n"
+"Faxes cannot be received!\n"
+msgstr ""
+"Error del sistema greu: no es pot crear el directori on desar els faxos "
+"rebuts.\n"
+"No podreu rebre faxos\n"
+
+#: src/efax_controller.cpp:732
+msgid ""
+"\n"
+"*** Stopping send/receive session ***\n"
+"\n"
+msgstr ""
+"\n"
+"*** S'està aturant la sessió d'enviament/recepció ***\n"
+"\n"
+
+#: src/efax_controller.cpp:911
+msgid ""
+"SERIOUS SYSTEM ERROR: Can't create directory to save received fax.\n"
+"This fax will not be saved!\n"
+msgstr ""
+"Error del sistema greu: No es pot crear el directori o desar el fax rebut.\n"
+"Aquest fax no serà desat\n"
+
+#: src/efax_controller.cpp:931
+msgid ""
+"SERIOUS SYSTEM ERROR: Can't open received fax directory.\n"
+"This fax will not be saved!\n"
+msgstr ""
+"Error del sistema greu: No es pot obrir el directori de faxos rebuts.\n"
+"Aquest fax no serà desat\n"
+
+#: src/efax_controller.cpp:967
+msgid ""
+"SERIOUS SYSTEM ERROR: Cannot save all of the received fax.\n"
+"All or part of the fax will be missing!\n"
+msgstr ""
+"Error del sistema greu: No es pot desar tot el fax rebut.\n"
+"Tot o part del fax es perdrà\n"
+
+#: src/efax_controller.cpp:1005
+msgid "Invalid Utf8 received in EfaxController::read_pipe_slot()\n"
+msgstr "S'ha rebut un Utf8 invàlid a EfaxController::read_pipe_slot()\n"
+
+#: src/efax_controller.cpp:1089
+msgid ""
+"SERIOUS SYSTEM ERROR: Can't create directory to save sent fax.\n"
+"This fax will not be saved!\n"
+msgstr ""
+"Error del sistema greu: No es pot crear el directori per desar el fax "
+"enviat.\n"
+"Aquest fax no serà desat\n"
+
+#: src/efax_controller.cpp:1259
+msgid "PRINT JOB"
+msgstr "TREBALL D'IMPRESSIÓ"
+
+#: src/fax_list.cpp:199
+msgid "Print selected fax"
+msgstr "Imprimeix fax seleccionat"
+
+#: src/fax_list.cpp:211
+msgid "View selected fax"
+msgstr "Visualitza fax seleccionat"
+
+#: src/fax_list.cpp:222
+msgid "Add/amend description for selected fax"
+msgstr "Afegeix/esmena la descripció del fax seleccionat"
+
+#: src/fax_list.cpp:229
+msgid "Delete selected fax"
+msgstr "Esborra el fax seleccionat"
+
+#: src/fax_list.cpp:236
+msgid "Empty trash folder"
+msgstr "Buida la paperera"
+
+#: src/fax_list.cpp:247
+msgid "Add new folder"
+msgstr "Crea una carpeta"
+
+#: src/fax_list.cpp:258
+msgid "Delete selected folder"
+msgstr "Esborra la carpeta seleccionada"
+
+#: src/fax_list.cpp:313
+msgid "Reset new faxes count"
+msgstr "Esborra comptador de faxos nous"
+
+#: src/fax_list.cpp:360
+msgid "efax-gtk: Received fax list"
+msgstr "efax-gtk: Llista de faxos rebuts"
+
+#: src/fax_list.cpp:361
+msgid "efax-gtk: Sent fax list"
+msgstr "efax-gtk: Llista de faxos enviats"
+
+#: src/fax_list.cpp:470
+msgid "Permanently delete selected fax?\n"
+msgstr "Voleu esborrar permanentment el fax seleccionat?\n"
+
+#: src/fax_list.cpp:471
+msgid ""
+"\n"
+"(NOTE: This will permanently delete the fax\n"
+"from the file system)"
+msgstr ""
+"\n"
+"(NOTA: Això esborrarà de forma permanent el fax\n"
+"del sistema de fitxers)"
+
+#: src/fax_list.cpp:475
+msgid ""
+"Permanently delete selected faxes?\n"
+"\n"
+"(NOTE: This will permanently delete the faxes\n"
+"from the file system)"
+msgstr ""
+"Esborrar de forma permanent els faxos seleccionats?\n"
+"\n"
+"(NOTA: Això esborrarà de forma permanent els faxos\n"
+"del sistema de fitxers)"
+
+#: src/fax_list.cpp:480
+msgid "efax-gtk: Delete fax"
+msgstr "efax-gtk: esborrar fax"
+
+#: src/fax_list.cpp:507
+msgid ""
+"Empty trash folder?\n"
+"\n"
+"(NOTE: This will permanently delete all the faxes\n"
+"in the Trash folder from the file system)"
+msgstr ""
+"Voleu buidar la paperera?\n"
+"\n"
+"(Nota: això esborrarà de forma permanent tots els faxos\n"
+"de la paperera"
+
+#: src/fax_list.cpp:510
+msgid "efax-gtk: Trash folder"
+msgstr "efax-gtk: paperera"
+
+#: src/fax_list.cpp:529 src/fax_list.cpp:1533
+msgid "efax-gtk: Add folder"
+msgstr "efax-gtk: crear carpeta"
+
+#: src/fax_list.cpp:548
+msgid ""
+"Empty the folder by deleting any child folders\n"
+"and drag-and-dropping or deleting any contained\n"
+"faxes before deleting folder"
+msgstr ""
+"Buideu la carpeta esborrant-ne les carpetes filles\n"
+"i arrossegueu a fora o suprimiu qualsevol fax que hi hagi\n"
+"abans d'esborrar la carpeta"
+
+#: src/fax_list.cpp:551 src/fax_list.cpp:565
+msgid "efax-gtk: Delete folder"
+msgstr "efax-gtk: esborrar la carpeta"
+
+#: src/fax_list.cpp:559
+msgid "Delete folder: "
+msgstr "Esborrar la carpeta: "
+
+#: src/fax_list.cpp:563 src/settings.cpp:2969
+msgid "?"
+msgstr "?"
+
+#: src/fax_list.cpp:592
+msgid "Print selected fax?"
+msgstr "Imprimir el fax seleccionat?"
+
+#: src/fax_list.cpp:593 src/fax_list.cpp:962
+msgid "efax-gtk: Print fax"
+msgstr "efax-gtk: imprimir fax"
+
+#: src/fax_list.cpp:1388 src/tray_icon.cpp:280 src/tray_icon.cpp:288
+msgid "New faxes:"
+msgstr "Faxos nous:"
+
+#: src/fax_list.cpp:1393
+msgid "New faxes: "
+msgstr "Faxos nous: "
+
+#: src/fax_list.cpp:1525
+msgid "efax-gtk: Fax description"
+msgstr "efax-gtk: descripció de fax"
+
+#: src/fax_list.cpp:1526
+msgid "Fax description?"
+msgstr "Descripció del fax?"
+
+#: src/fax_list.cpp:1534
+msgid ""
+"Folder name?\n"
+"(Note this will be placed in the top\n"
+"level and can be drag-and-dropped\n"
+"into other folders)"
+msgstr ""
+"Nom de la carpeta?\n"
+"(Nota: això serà col·locat a dalt\n"
+"de tot i pot ser arrossegat a\n"
+"una altra carpeta)"
+
+#: src/fax_list_manager.cpp:73
+msgid "Folder name cannot contain character: "
+msgstr "El nom de carpeta no pot tindre el caràcter: "
+
+#: src/fax_list_manager.cpp:82
+msgid "The following folder already exists: "
+msgstr "La següent carpeta ja existeix: "
+
+#: src/fax_list_manager.cpp:379
+msgid "Folder"
+msgstr "Carpeta"
+
+#: src/fax_list_manager.cpp:410
+msgid "Date"
+msgstr "Data"
+
+#: src/fax_list_manager.cpp:421
+msgid "Description"
+msgstr "Descripció"
+
+#: src/fax_list_manager.cpp:519 src/fax_list_manager.cpp:522
+#: src/fax_list_manager.cpp:523 src/fax_list_manager.cpp:696
+msgid "Inbox"
+msgstr "Safata d'entrada"
+
+#: src/fax_list_manager.cpp:528 src/fax_list_manager.cpp:531
+#: src/fax_list_manager.cpp:532 src/fax_list_manager.cpp:697
+msgid "Sent box"
+msgstr "Enviat"
+
+#: src/fax_list_manager.cpp:541 src/fax_list_manager.cpp:546
+#: src/fax_list_manager.cpp:547
+msgid "Trash"
+msgstr "Paperera"
+
+#: src/file_list.cpp:118
+msgid "efax-gtk: File list"
+msgstr "efax-gtk: llista de fitxers"
+
+#: src/file_list.cpp:162
+msgid "Files to fax"
+msgstr "Fitxers per enviar"
+
+#: src/file_list.cpp:192 src/socket_list.cpp:189
+msgid "View selected file"
+msgstr "Veure fitxer seleccionat"
+
+#: src/file_list.cpp:202 src/socket_list.cpp:199
+msgid "Remove selected file from list"
+msgstr "Esborra el fitxer seleccionat de la llista"
+
+#: src/file_list.cpp:210
+msgid "Add files to list"
+msgstr "Afegeix fitxers a la llista"
+
+#: src/file_list.cpp:216
+msgid "Add files to the file list for faxing"
+msgstr "Afegeix fitxers a la llista de fitxers per enviar"
+
+#: src/file_list.cpp:227
+msgid "Move file up"
+msgstr "Mou fitxer amunt"
+
+#: src/file_list.cpp:228
+msgid "Move file down"
+msgstr "Mou fitxer avall"
+
+#: src/file_list.cpp:605
+msgid "Remove file "
+msgstr "Esborra fitxer "
+
+#: src/file_list.cpp:607 src/socket_list.cpp:494
+msgid " from the list?"
+msgstr " de la llista?"
+
+#: src/file_list.cpp:613
+msgid "Remove file"
+msgstr "Esborra fitxer"
+
+#: src/main.cpp:173
+msgid ""
+"Copyright (C) 2001 - 2007 Chris Vine\n"
+"This program is released under the GNU General Public License, version 2\n"
+msgstr ""
+"Copyright (C) 2001 - 2007 Chris Vine\n"
+"Aquest programa es distribueix sota els termes de la Llicència Pública "
+"General de GNU, versió 2\n"
+
+#: src/main.cpp:189
+msgid ""
+"Usage: efax-gtk [options] [filename]\n"
+"Options:\n"
+"\t-r  Start the program in receive standby mode\n"
+"\t-s  Start the program hidden in the system tray\n"
+"See the README file which comes with the distribution\n"
+"for further details\n"
+msgstr ""
+"Ús: efax-gtk [opcions] [nom de fitxer]\n"
+"Opcions:\n"
+"\t-r  inicia el programa en mode d'espera de trucada\n"
+"\t-s  inicia el programa amagat a l'area de notificació\n"
+"Mira el fitxer README que ve amb la distribució\n"
+"per a més detalls\n"
+
+#: src/main.cpp:260
+msgid "Invalid option.  Options are:\n"
+msgstr "Opció invàlida.  Les opcions son:\n"
+
+#: src/main.cpp:565
+msgid ""
+"Invalid user name specified - it must be in plain\n"
+"ASCII characters.  No user name will be shown on\n"
+"the fax top header line, but don't worry as the\n"
+"fax station number will always be given on the\n"
+"top header\n"
+msgstr ""
+"El nom d'usuari especificat és invàlid (ha de contenir només\n"
+"caràcters ASCII simples). No es mostrarà el nom d'usuari a la\n"
+"capçalera del fax, però el número de fax de l'estació si hi serà.\n"
+
+#: src/main.cpp:632
+msgid ""
+"Invalid modem class specified\n"
+"Adopting default of Class 2\n"
+msgstr ""
+"Classe de mòdem especificat invàlid\n"
+"Adoptant per defecte de Classe 2\n"
+
+#: src/main.cpp:641 src/main.cpp:646
+msgid "No serial port device specified in "
+msgstr "No s'ha especificat dispositiu de port sèrie a "
+
+#: src/main.cpp:699
+msgid "Adopting default fax resolution of 204x196\n"
+msgstr "Adoptant la resolució de fax per defecte de 204x196\n"
+
+#: src/main.cpp:707
+msgid ""
+"Invalid fax resolution specified\n"
+"Adopting default fax resolution of 204x196\n"
+msgstr ""
+"La resolució de fax especificada és invàlida.\n"
+"S'adoptarà la resolució de fax per defecte de 204x196\n"
+
+#: src/main.cpp:715
+msgid ""
+"Invalid ring number specified\n"
+"Will answer after one ring\n"
+msgstr ""
+"Nombre de timbres especificat invàlid\n"
+"Respondrà després d'un timbre\n"
+
+#: src/main.cpp:722
+msgid "Adopting default page size of a4\n"
+msgstr "Adoptant el mida de la pàgina de A4\n"
+
+#: src/main.cpp:732
+msgid ""
+"Invalid page size specified\n"
+"Adopting default page size of a4\n"
+msgstr ""
+"Mida de pàgina especificat invàlid\n"
+"Adoptant mida de pàgina per defecte de A4\n"
+
+#: src/main.cpp:745
+msgid ""
+"Invalid dialmode specified\n"
+"Adopting default of tone dialling\n"
+msgstr ""
+"Mode de marcatge especificat invàlid\n"
+"Adoptant mode de marcatge per defecte de tons\n"
+
+#: src/main.cpp:783
+msgid "Invalid print shrink specified: adopting default value of 100\n"
+msgstr ""
+"La reducció d'impressió especificada és invàlida: adoptant valor per defecte "
+"de 100\n"
+
+#: src/main.cpp:792
+msgid "Adopting default postscript view command of 'gv'\n"
+msgstr "Adoptant ordre de visualitzador postscript per defecte de 'gv'\n"
+
+#: src/main.cpp:806
+msgid ""
+"No port for the socket server has been specified, so the server will not be "
+"started\n"
+msgstr ""
+"No s'ha especificat el port per al servidor de sòcol, per tant el servidor "
+"no serà iniciat\n"
+
+#: src/main.cpp:812
+msgid ""
+"Invalid port for the socket server has been specified, so the server will "
+"not be started.  It needs to be between 1024 and 65535\n"
+msgstr ""
+"El port especificat per al servidor de sòcol és invàlid, per tant el "
+"servidor no serà iniciat.  Ha de ser ente 1024 i 65535\n"
+
+#: src/main.cpp:860
+msgid ""
+"Invalid WORK_SUBDIR: directory specified. WORK_SUBDIR: will be ignored\n"
+msgstr ""
+"El directori especificat a WORK_SUBDIR: és invàlid. WORK_SUBDIR: serà "
+"ignorat\n"
+
+#: src/mainwindow.cpp:287
+msgid ""
+"The program has been started with the -s option but there is no system "
+"tray!\n"
+msgstr ""
+"El programa ha esta iniciat amb la opció -s però no hi ha àrea de "
+"notificació!\n"
+
+#: src/mainwindow.cpp:342
+msgid "File  "
+msgstr "Fitxer  "
+
+#: src/mainwindow.cpp:344
+msgid "Socket "
+msgstr "Sòcol "
+
+#: src/mainwindow.cpp:346
+msgid "Fax entry method: "
+msgstr "Mètode d'entrada de fax: "
+
+#: src/mainwindow.cpp:347 src/mainwindow.cpp:1561
+msgid "Single file"
+msgstr "Un fitxer"
+
+#: src/mainwindow.cpp:348 src/mainwindow.cpp:1562
+msgid "Multiple files"
+msgstr "Múltiples fitxers"
+
+#: src/mainwindow.cpp:349 src/mainwindow.cpp:1563
+msgid "Socket list"
+msgstr "Llista del sòcol"
+
+#: src/mainwindow.cpp:350 src/mainwindow.cpp:1564 src/socket_notify.cpp:74
+msgid "Tel number: "
+msgstr "Núm. telèfon: "
+
+#: src/mainwindow.cpp:351 src/mainwindow.cpp:1565 src/socket_notify.cpp:75
+msgid "Send fax"
+msgstr "Enviar fax"
+
+#: src/mainwindow.cpp:352 src/mainwindow.cpp:1566 src/tray_icon.cpp:154
+msgid "Answer call"
+msgstr "Respon la trucada"
+
+#: src/mainwindow.cpp:353 src/mainwindow.cpp:1567 src/tray_icon.cpp:149
+msgid "Take over call"
+msgstr "Agafa la trucada"
+
+#: src/mainwindow.cpp:354 src/mainwindow.cpp:1568
+msgid "Standby"
+msgstr "En espera"
+
+#: src/mainwindow.cpp:355 src/mainwindow.cpp:1569 src/tray_icon.cpp:165
+msgid "Stop"
+msgstr "Atura"
+
+#: src/mainwindow.cpp:399
+msgid "Fax to send"
+msgstr "Fax per enviar"
+
+#: src/mainwindow.cpp:519
+msgid "List _received faxes"
+msgstr "Llista de faxos _rebuts"
+
+#: src/mainwindow.cpp:526
+msgid "_List sent faxes"
+msgstr "_Llista de faxos enviats"
+
+#: src/mainwindow.cpp:537
+msgid "Queued _faxes from socket"
+msgstr "Cua de _faxos del sòcol "
+
+#: src/mainwindow.cpp:543
+msgid "_Enter single file"
+msgstr "_Introduïu un fitxer"
+
+#: src/mainwindow.cpp:550
+msgid "Enter _multiple files"
+msgstr "Introduïu _múltiples fitxers"
+
+#: src/mainwindow.cpp:561
+msgid "_Address book"
+msgstr "Llibreta d'_adreces"
+
+#: src/mainwindow.cpp:572
+msgid "_Settings"
+msgstr "_Preferències"
+
+#: src/mainwindow.cpp:584
+msgid "_Quit"
+msgstr "_Surt"
+
+#: src/mainwindow.cpp:596
+msgid "_Print logfile"
+msgstr "_Imprimeix el fitxer de registre"
+
+#: src/mainwindow.cpp:603
+msgid "Print logfile page _setup"
+msgstr "_Configuració de la pàgina d'impressió del registre"
+
+#: src/mainwindow.cpp:617
+msgid "_View logfile"
+msgstr "_Visualitza el fitxer de registre"
+
+#: src/mainwindow.cpp:636
+msgid "About efax-_gtk"
+msgstr "Quan a l'efax-_gtk"
+
+#: src/mainwindow.cpp:643
+msgid "About _efax"
+msgstr "Quan a l'_efax"
+
+#: src/mainwindow.cpp:649
+msgid "_Translations"
+msgstr "_Traduccions"
+
+#: src/mainwindow.cpp:660 src/mainwindow.cpp:668
+msgid "_Help"
+msgstr "_Ajuda"
+
+#: src/mainwindow.cpp:666
+msgid "_File"
+msgstr "_Fitxer"
+
+#: src/mainwindow.cpp:667
+msgid "_Log"
+msgstr "_Registre"
+
+#: src/mainwindow.cpp:984
+msgid ""
+"No fax number specified.  Do you want to send the fax on an open connection?"
+msgstr ""
+"No s'ha especificat cap número de fax.  Voleu enviar el fax amb una connexió "
+"establerta?"
+
+#: src/mainwindow.cpp:986
+msgid "Telephone number"
+msgstr "Número de telèfon"
+
+#: src/mainwindow.cpp:1250
+msgid "A print job has been received on socket"
+msgstr "Un treball d'impressió s'ha rebut al sòcol"
+
+#: src/mainwindow.cpp:1251
+msgid "efax-gtk socket"
+msgstr "efax-gtk sòcol"
+
+#: src/mainwindow.cpp:1308
+msgid "A fax has been received by efax-gtk"
+msgstr "S'ha rebut un fax amb efax-gtk"
+
+#: src/mainwindow.cpp:1309
+msgid "efax-gtk: fax received"
+msgstr "efax-gtk: fax rebut"
+
+#: src/mainwindow.cpp:1426
+msgid ""
+"Can't change settings unless the program is inactive\n"
+"Press the Stop button to make it inactive"
+msgstr ""
+"No es poden canviar les preferències fins que el programa estigui inactiu\n"
+"premeu el botó Atura per posar-lo inactiu"
+
+#: src/mainwindow.cpp:1516
+msgid ""
+"Copyright (C) 2001 - 2007 Chris Vine\n"
+"\n"
+"This program is released under the GNU General Public License, version 2"
+msgstr ""
+"Copyright (C) 2001 - 2007 Chris Vine\n"
+"\n"
+"Aquest programa es distribueix sota els termes de la Llicència Pública "
+"General de GNU, versió 2"
+
+#: src/mainwindow.cpp:1519
+msgid "About efax-gtk"
+msgstr "Quan a efax-gtk"
+
+#: src/mainwindow.cpp:1523
+msgid ""
+"This program is a front end for efax.\n"
+"efax is a program released under the GNU General Public License, version 2 "
+"by Ed Casas.\n"
+"\n"
+"The copyright to efax is held by Ed Casas (the copyright to this program is "
+"held by Chris Vine)"
+msgstr ""
+"Aquest programa és una interfície per a l'efax\n"
+"l'efax és un programa que es distribueix sota els termes de la Llicència "
+"Pública General de GNU, versió 2 per Ed Casas.\n"
+"\n"
+"El copyright de efax és mantigut per Ed Casas (el copyright d'aquest "
+"programa és mantingut per Chris Vine)"
+
+#: src/mainwindow.cpp:1528
+msgid "About efax"
+msgstr "Quan a efax"
+
+#: src/mainwindow.cpp:1538
+msgid "Italian - Luca De Rugeriis\n"
+msgstr "Italià - Luca De Rugeriis\n"
+
+#: src/mainwindow.cpp:1539
+msgid "Polish - Pawel Suwinski\n"
+msgstr "Polac - Pawel Suwinski\n"
+
+#: src/mainwindow.cpp:1540
+msgid "Bulgarian - Zdravko Nikolov\n"
+msgstr "Búlgar - Zdravko Nikolov\n"
+
+#: src/mainwindow.cpp:1541
+msgid "Russian - Pavel Vainerman\n"
+msgstr "Rus - Pavel Vainerman\n"
+
+#: src/mainwindow.cpp:1542
+msgid "Hebrew - Assaf Gillat\n"
+msgstr "Hebreu - Assaf Gillat\n"
+
+#: src/mainwindow.cpp:1543
+msgid "Greek - Hellenic Linux Users Group\n"
+msgstr "Grec - Hellenic Linux Users Group\n"
+
+#: src/mainwindow.cpp:1544
+msgid "Albanian - Besnik Bleta\n"
+msgstr "Albanès - Besnik Bleta\n"
+
+#: src/mainwindow.cpp:1545
+msgid "Hungarian - Gergely Szakats\n"
+msgstr "Hongarès - Gergely Szakats\n"
+
+#: src/mainwindow.cpp:1546
+msgid "Simplified Chinese - Kite Lau\n"
+msgstr "Xinès simplificat - Kite Lau\n"
+
+#: src/mainwindow.cpp:1547
+msgid "German - Steffen Wagner\n"
+msgstr "Alemany - Steffen Wagner\n"
+
+#: src/mainwindow.cpp:1548
+msgid "Swedish - Daniel Nylander\n"
+msgstr "Suec - Daniel Nylander\n"
+
+#: src/mainwindow.cpp:1549
+msgid "Catalan - Jordi Sayol Salomo\n"
+msgstr "Català - Jordi Sayol Salomó\n"
+
+#: src/mainwindow.cpp:1550
+msgid "Traditional Chinese - Wei-Lun Chao\n"
+msgstr "Xinès tradicional - Wei-Lun Chao\n"
+
+#: src/mainwindow.cpp:1552
+msgid "efax-gtk: Translations"
+msgstr "efax-gtk: Traduccions"
+
+#: src/mainwindow.cpp:1879
+msgid "Invalid Utf8 received in MainWindow::read_error_pipe_slot()\n"
+msgstr "S'ha rebut un Utf8 invàlid a MainWindow::read_error_pipe_slot()\n"
+
+#: src/mainwindow.cpp:2058
+msgid "Press F1 for help"
+msgstr "Premeu F1 per a l'ajuda"
+
+#: src/settings.cpp:101
+msgid "Name: "
+msgstr "Nom: "
+
+#: src/settings.cpp:102
+msgid "Number: "
+msgstr "Número: "
+
+#: src/settings.cpp:228
+msgid "Serial Device: "
+msgstr "Dispositiu sèrie: "
+
+#: src/settings.cpp:229
+msgid "Lock File: "
+msgstr "Fitxer de bloqueig: "
+
+#: src/settings.cpp:230
+msgid "Capabilities: "
+msgstr "Compatibilitats: "
+
+#: src/settings.cpp:231
+msgid "Rings (1-9): "
+msgstr "Timbres (1-9): "
+
+#: src/settings.cpp:232
+msgid "Modem Class: "
+msgstr "Classe de mòdem: "
+
+#: src/settings.cpp:233
+msgid "Dial Mode: "
+msgstr "Mode de marcatge: "
+
+#: src/settings.cpp:249
+msgid "Auto"
+msgstr "Automàtic"
+
+#: src/settings.cpp:251
+msgid "Class 1"
+msgstr "Classe 1"
+
+#: src/settings.cpp:253
+msgid "Class 2"
+msgstr "Classe 2"
+
+#: src/settings.cpp:255
+msgid "Class 2.0"
+msgstr "Classe 2.0"
+
+#: src/settings.cpp:271
+msgid "Tone"
+msgstr "Tons"
+
+#: src/settings.cpp:273
+msgid "Pulse"
+msgstr "Pulsos"
+
+#: src/settings.cpp:568
+msgid "Initialization Params:"
+msgstr "Paràmetres d'inicialització:"
+
+#: src/settings.cpp:569
+msgid "Reset Params: "
+msgstr "Paràmetres de reinici: "
+
+#: src/settings.cpp:570
+msgid "Other Params: "
+msgstr "Altres paràmetres: "
+
+#: src/settings.cpp:726
+msgid "Use GTK+ Print System"
+msgstr "Utilitza el sistema d'impressió del GTK+"
+
+#: src/settings.cpp:727
+msgid "Print Program: "
+msgstr "Programa d'impressió: "
+
+#: src/settings.cpp:728
+msgid "Print Shrink (50-100):"
+msgstr "Reducció d'impressió (50-100):"
+
+#: src/settings.cpp:729
+msgid ""
+"Popup confirmation dialog\n"
+"before printing"
+msgstr ""
+"Diàleg emergent de confirmació\n"
+"abans d'imprimir"
+
+#: src/settings.cpp:977
+msgid ""
+"Postscript viewer\n"
+"program:"
+msgstr ""
+"Programa visualitzador\n"
+"de postscript:"
+
+#: src/settings.cpp:1064
+msgid "Run socket server"
+msgstr "Inicia el servidor de sòcol"
+
+#: src/settings.cpp:1065
+msgid ""
+"Popup dialog when fax\n"
+"received from socket"
+msgstr ""
+"Diàleg emergent quan\n"
+"es rep un fax des del sòcol"
+
+#: src/settings.cpp:1066
+msgid ""
+"Port to which faxes to\n"
+"be sent:"
+msgstr ""
+"Port a on han de ser\n"
+"enviats els faxos:"
+
+#: src/settings.cpp:1067
+msgid ""
+"Addresses allowed to\n"
+"connect"
+msgstr ""
+"Adreces permeses\n"
+"per connectar"
+
+#: src/settings.cpp:1098
+msgid "localhost   "
+msgstr "màquina local   "
+
+#: src/settings.cpp:1101
+msgid "other"
+msgstr "altres"
+
+#: src/settings.cpp:1362
+msgid ""
+"Popup dialog when fax\n"
+"received by modem"
+msgstr ""
+"Diàleg emergent quan rebis\n"
+"un fax pel mòdem"
+
+#: src/settings.cpp:1363
+msgid ""
+"Execute a program or script\n"
+"when fax received by modem"
+msgstr ""
+"Executa un programa o fitxer de seqüència\n"
+"quan es rebi un fax pel mòdem"
+
+#: src/settings.cpp:1542
+msgid "Sent Fax Resolution: "
+msgstr "Resolució enviant fax: "
+
+#: src/settings.cpp:1543
+msgid ""
+"Include destination\n"
+"fax number on fax\n"
+"page top header line"
+msgstr ""
+"Incloure número de fax\n"
+"del destinatari a la\n"
+"capçalera de la pàgina"
+
+#: src/settings.cpp:1544
+msgid "Dial Prefix: "
+msgstr ""
+
+#: src/settings.cpp:1554
+msgid "Standard"
+msgstr "Estàndard"
+
+#: src/settings.cpp:1556
+msgid "Fine"
+msgstr "Fina"
+
+#: src/settings.cpp:1716
+msgid "Log File: "
+msgstr "Fitxer de registre: "
+
+#: src/settings.cpp:1783
+msgid "Page Size: "
+msgstr "Mida de pàgina: "
+
+#: src/settings.cpp:1894
+msgid "efax-gtk: settings"
+msgstr "efax-gtk: Preferències"
+
+#: src/settings.cpp:1928
+msgid "Note: pressing the OK button will save the settings in file"
+msgstr "Nota: prement el botó d'acord salvarà les preferències al fitxer"
+
+#: src/settings.cpp:1935
+msgid "Reset"
+msgstr "Restableix"
+
+#: src/settings.cpp:1964
+msgid "Identity"
+msgstr "Identitat"
+
+#: src/settings.cpp:1967
+msgid "Modem"
+msgstr "Mòdem"
+
+#: src/settings.cpp:1970
+msgid "Params"
+msgstr "Paràm."
+
+#: src/settings.cpp:1973
+msgid "Print"
+msgstr "Impr."
+
+#: src/settings.cpp:1979
+msgid "Socket"
+msgstr "Sòcol"
+
+#: src/settings.cpp:1982
+msgid "Receive"
+msgstr "Rebre"
+
+#: src/settings.cpp:1985
+msgid "Send"
+msgstr "Enviant"
+
+#: src/settings.cpp:1988
+msgid "Logging"
+msgstr "Registre"
+
+#: src/settings.cpp:1991
+msgid "Page"
+msgstr "Pàgina"
+
+#: src/settings.cpp:2050
+msgid ""
+"Invalid user name specified in \"Identity\" tab - it must be in plain ASCII "
+"characters.  If this is a problem, leave it blank as the fax station number "
+"will always be given on the top header"
+msgstr ""
+"Nom d'usuari invàlid especificat a la pestanya «Identitat» (ha de contenir "
+"només\n"
+"caràcters ASCII simples).  Si això és un problema, deixeu-lo en blanc ja que "
+"el número de l'estació de fax sempre apareixerà a la capçalera"
+
+#: src/settings.cpp:2054 src/settings.cpp:2092 src/settings.cpp:2111
+#: src/settings.cpp:2130 src/settings.cpp:2158 src/settings.cpp:2177
+#: src/settings.cpp:2250 src/settings.cpp:2306
+msgid "Config Error"
+msgstr "Error de configuració"
+
+#: src/settings.cpp:2091
+msgid "Invalid modem class specified"
+msgstr "Classe de mòdem especificada invàlida"
+
+#: src/settings.cpp:2110
+msgid "Invalid page size specified"
+msgstr "Mida de pàgina especificat invàlid"
+
+#: src/settings.cpp:2129
+msgid "Invalid sent fax resolution specified"
+msgstr "Resolució d'enviament de fax especificada invàlida"
+
+#: src/settings.cpp:2157
+msgid "Invalid rings number specified"
+msgstr "Nombre de timbres especificat invàlid"
+
+#: src/settings.cpp:2176
+msgid "Invalid dial mode specified"
+msgstr "Mode de marcatge especificat invàlid"
+
+#: src/settings.cpp:2249
+msgid "Invalid print shrink parameter specified"
+msgstr "Paràmetre de reducció d'impressió especificat invàlid"
+
+#: src/settings.cpp:2304
+msgid "Invalid socket port number specified. It must be between 1024 and 65535"
+msgstr ""
+"Número de port de sòcol especificat invàlid. Ha de ser entre 1024 i 65535"
+
+#: src/settings.cpp:2963
+msgid "Enter settings from "
+msgstr "Introdueix preferències des de "
+
+#: src/settings.cpp:2966
+msgid " or\n"
+msgstr " o\n"
+
+#: src/settings.cpp:2971
+msgid "Reset settings"
+msgstr "Reinicia preferències"
+
+#: src/settings_help.cpp:44
+msgid ""
+"Put the name to appear on the fax top header on sent faxes here.  It must be "
+"in plain ASCII characters.  If this is a problem, leave it blank as the fax "
+"station number will always be given on the top header"
+msgstr ""
+"Poseu aquí el nom que ha d'aparèixer a la capçalera dels faxos enviats. Ha "
+"de contenir només\n"
+"caràcters ASCII simples. Si això és un problema, deixeu-lo en blanc ja que "
+"el número de fax de l'estació sempre apareixerà a la capçalera"
+
+#: src/settings_help.cpp:48
+msgid "efax-gtk help: Name"
+msgstr "Ajuda de l'efax-gtk: nom"
+
+#: src/settings_help.cpp:50
+msgid ""
+"Put the number to appear on the fax top header on sent faxes here.  This "
+"will also comprise the fax station ID reported to the sending fax machine "
+"when receiving faxes"
+msgstr ""
+"Poseu aquí el número que ha d'aparèixer a la capçalera dels faxos enviats. "
+"Això també serà enviat com a identificador d'estació de fax a l'aparell de "
+"fax remot quan es rebin faxos"
+
+#: src/settings_help.cpp:53
+msgid "efax-gtk help: Number"
+msgstr "Ajuda de l'efax-gtk: número"
+
+#: src/settings_help.cpp:58
+msgid ""
+"Put the serial device to which the modem is connected here (if none is "
+"given, the program defaults to /dev/modem).  Do not include the `/dev/' part "
+"of the device name -- ie state it as `ttyS1' or `cua2', etc.  With Linux, "
+"ttyS0 equates to COM 1, ttyS1 to COM 2, and so on"
+msgstr ""
+"Poseu aquí el dispositiu sèrie al que està connectat el mòdem (si no hi "
+"poses res, el programa l'assumirà com a /dev/modem) No hi incloguis la part "
+"'/dev/' del nom de dispositiu -- per exemple 'ttyS1' o 'cua2', etc. A Linux, "
+"ttyS0 s'equipara amb COM 1, ttyS1 amb COM 2 i així successivament"
+
+#: src/settings_help.cpp:63
+msgid "efax-gtk help: Device"
+msgstr "Ajuda de l'efax-gtk: dispositiu"
+
+#: src/settings_help.cpp:65
+msgid ""
+"Put the lock file directory here.  If none is specified, the program "
+"defaults to /var/lock"
+msgstr ""
+"Poseu aquí el directori del fitxer de bloqueig. Si no hi poseu res, el "
+"programa farà servir /var/lock"
+
+#: src/settings_help.cpp:67
+msgid "efax-gtk help: Lock File"
+msgstr "Ajuda de l'efax-gtk: fitxer de bloqueig"
+
+#: src/settings_help.cpp:69
+msgid ""
+"With efax-0.9 or higher you should usually pick \"Auto\", as then efax will "
+"work out the class of the modem by itself, but you can also force a class by "
+"picking one of the specified ones if you want.  However, with efax-0.8 the "
+"program defaults to Class 2, so if you are using a Class 1 modem with old "
+"versions of efax specify the Class here"
+msgstr ""
+"Amb el efax-0.9 o superior podeu triar tranquilament «Auto», i llavors efax "
+"buscarà la classe de mòdem ell mateix, però si voleu, també en podeu forçar "
+"la classe triant-ne una. Tant mateix, efax-0.8 utilitza per defecte la "
+"classe 2, per tant, si esteu utilitzant un mòdem de classe 1 amb una versió "
+"vella d'efax, heu d'especificar la classe aquí"
+
+#: src/settings_help.cpp:75
+msgid "efax-gtk help: Modem Class"
+msgstr "Ajuda de l'efax-gtk: classe de mòdem"
+
+#: src/settings_help.cpp:77
+msgid ""
+"This specifies whether tone or pulse dialling will be used when sending faxes"
+msgstr ""
+"Això especifica si s'utilitzarà tons o pulsos per trucar quan s'enviïn faxos"
+
+#: src/settings_help.cpp:79
+msgid "efax-gtk help: Dial Mode"
+msgstr "Ajuda de l'efax-gtk: mode de marcatge"
+
+#: src/settings_help.cpp:81
+msgid ""
+"This specifies the capabilities of the modem.  To see what these mean do "
+"`man efax', and look at the operation of the `-c' flag.  With efax-0.9 and a "
+"Class 2 modem, you usually won't need to specify this and should leave it "
+"blank, as the program will interrogate the modem.  If using an older version "
+"of efax or a different class of modem, values which will work with "
+"practically any 14,400 bps modem are 1,5,0,2,0,0,0,0, or 1,3,0,2,0,0,0,0 for "
+"slower ones"
+msgstr ""
+"Això especifica les compatibilitats  del mòdem. Per veure que significa això "
+"feu un 'man efax' i mireu els operadors de la opció '-c'. Amb efax-0.9 i un "
+"mòdem classe 2, normalment no es necessitarà especificar res i es pot deixar "
+"en blanc, ja que el programa ho preguntarà al mòdem. Si esteu fent servir "
+"una versió vella d'efax o un mòdem de classe diferent, els valors que "
+"funcionaran amb pràcticament qualsevol mòdem de 14.400 bps son "
+"1,5,0,2,0,0,0,0, o 1,3,0,2,0,0,0,0 per a els que son més lents"
+
+#: src/settings_help.cpp:89
+msgid "efax-gtk help: Capabilities"
+msgstr "Ajuda de l'efax-gtk: Compatibilitats"
+
+#: src/settings_help.cpp:91
+msgid ""
+"This defines the number of rings the modem allows to pass before answering "
+"the telephone when in Standby mode.  Acceptable values are 1 to 9.  If none "
+"is specified, the program defaults to 1"
+msgstr ""
+"Això defineix el nombre de timbres que el mòdem deixa passar abans de "
+"respondre el telèfon quan és en mode 'En espera'. Els valors acceptats son "
+"de 1 a 9. Si no n'especifiqueu cap el programa utilitzarà per defecte l'1"
+
+#: src/settings_help.cpp:94
+msgid "efax-gtk help: Rings"
+msgstr "Ajuda de l'efax-gtk: timbres"
+
+#: src/settings_help.cpp:99
+msgid ""
+"This specifies the initializing `AT' commands for the modem when in fax "
+"mode.  Specify as many of these as are needed, separated by spaces for "
+"commands which need to be separated, but without a prepended `AT'.  If none "
+"is specified, the program will default to `Z &FE&D2S7=120 &C0 M1L0', which "
+"will be correct for practically all modems"
+msgstr ""
+"Això especifica l'ordre AT d'inicialització per al mòdem quan és en mode "
+"fax. Especifiqueu-ne tantes com sigui necessari, separades per espais les "
+"que necessitin estar-ho, però sense estar precedides per un 'AT'. Si no "
+"n'especifiqueu cap, el programa utilitzarà per defecte `Z &FE&D2S7=120 &C0 "
+"M1L0', que serà correcte per a pràcticament tots els mòdems"
+
+#: src/settings_help.cpp:105
+msgid "efax-gtk help: Initialization Parameters"
+msgstr "Ajuda de l'efax-gtk: paràmetres d'inicialització"
+
+#: src/settings_help.cpp:107
+msgid ""
+"This specifies the `AT' commands that will reset the modem.  Specify as many "
+"commands as are needed, separated by spaces for commands which need to be "
+"separated, but without a prepended `AT'.  If none is specified, the program "
+"will default to `Z', which will be correct for practically all modems"
+msgstr ""
+"Això especifica l'ordre 'AT' que reinicialitzarà el mòdem. Especifiqueu "
+"tantes ordres com sigui necessari, separades per espais les que necessitin "
+"estar-ho, però sense estar precedides per un 'AT'. Si no n'especifiqueu cap, "
+"el programa utilitzarà per defecte `Z', que serà correcte per a pràcticament "
+"tots els mòdems"
+
+#: src/settings_help.cpp:112
+msgid "efax-gtk help: Reset Parameters"
+msgstr "Ajuda de l'efax-gtk: reinicialitza paràmetres"
+
+#: src/settings_help.cpp:114
+msgid ""
+"This can be used to pass any other parameter to efax (do `man efax' to see "
+"what is available).  Specify as many of these as are needed, separated by "
+"spaces for different parameters -- eg include `-or' to do a bit reversal "
+"during receive for Multitech modems which require it.  Unless you have an "
+"unusual modem, leave this blank"
+msgstr ""
+"Això és per passar-li qualsevol altre paràmetre a efax (feu 'man efax' per "
+"veure que hi teniu disponible). Especifiqueu-ne tants com siguin necessaris, "
+"separant amb espais els diferents paràmetres. Per exemple inclogueu-hi '-or' "
+"per a fer una inversió de bit durant la recepció per als mòdems Multitech "
+"que ho necessitin. A no ser que tingueu un mòdem poc comú, deixe-ho en blanc"
+
+#: src/settings_help.cpp:120
+msgid "efax-gtk help: Other Parameters"
+msgstr "Ajuda de l'efax-gtk: altres paràmetres"
+
+#: src/settings_help.cpp:125
+msgid ""
+"If this is checked, the program will use the GTK+ print system rather than "
+"the command line argument specified below to print faxes"
+msgstr ""
+"si s'activa, el programa farà servir el sistema d'impressió del GTK+ en lloc "
+"de l'argument de la línia d'ordres especificat a sota per a imprimir faxos"
+
+#: src/settings_help.cpp:128
+msgid "efax-gtk help: Use GTK+ print system"
+msgstr "Ajuda de l'efax-gtk: Utilitzeu el sistema d'impressió del GTK+"
+
+#: src/settings_help.cpp:130
+msgid ""
+"This is the command which prints and takes postscript input on standard "
+"input.  If none is specified, the program will default to `lpr'.  This has "
+"no effect if the \"Use GTK+ Print System\" button is checked"
+msgstr ""
+"Aquesta és l'ordre per a imprimir i que també accepta ordres postscript a "
+"l'entrada estàndard. Si no s'hi especifica res, el programa farà servir per "
+"defecte 'lpr'. Això no tindrà efecte si està seleccionat el botó de "
+"«Utilitzeu el sistema d'impressió del GTK+»"
+
+#: src/settings_help.cpp:134
+msgid "efax-gtk help: Print Program"
+msgstr "Ajuda de l'efax-gtk: programa d'impressió"
+
+#: src/settings_help.cpp:136
+msgid ""
+"This will determine the extent to which a printed page will be reduced to "
+"fit within a printer's print area.  It is a percentage -- eg 98 will shrink "
+"the page to 98 per cent of its size.  If none is specified no shrink will "
+"take place (ie you can, but there is no need to, specify 100)"
+msgstr ""
+"Això determinarà quan s'ha de reduir una pàgina per que càpiga dins de "
+"l'àrea d'impressió de la impressora. És en tant per cent -- o sigui, 98 "
+"reduirà la pàgina al 98 per cent de la seva mida. Si no s'especifica res, no "
+"es farà cap reducció (per exemple podeu, tot i que no caldria, especificar "
+"100)"
+
+#: src/settings_help.cpp:141
+msgid "efax-gtk help: Print Shrink"
+msgstr "Ajuda de l'efax-gtk: reducció d'impressió"
+
+#: src/settings_help.cpp:143
+msgid ""
+"This specifies whether a confirmatory pop-up dialog is to appear before "
+"printing whenever the \"Print selected fax\" button is pressed in the "
+"Received Faxes list or Sent Faxes list.  Uncheck the box if you don't want a "
+"dialog (if you have specified an external print manager such as 'kprinter' "
+"in the Print Program box, then you will not want this checked).  This has no "
+"effect if the \"Use GTK+ Print System\" button is checked"
+msgstr ""
+"Això especifica si un diàleg emergent de confirmació ha d'aparèixer abans "
+"d'imprimir quan premeu el botó de «Imprimeix fax seleccionat» a la llista de "
+"faxos rebuts o la de faxos enviats. Desmarque-ho si no voleu un diàleg (si "
+"teniu especificat un administrador d'impressió extern com per exemple "
+"'kprinter' al camp de Programa d'Impressió, llavors preferireu no tindre "
+"aquest camp activat). Això no tindrà efecte si està seleccionat el botó de "
+"«Utilitzeu el sistema d'impressió del GTK+»"
+
+#: src/settings_help.cpp:149 src/settings_help.cpp:178
+msgid "efax-gtk help: Popup"
+msgstr "Ajuda de l'efax-gtk: emergent"
+
+#: src/settings_help.cpp:154
+msgid ""
+"A postscript viewer is used to view sent and received faxes via the fax "
+"lists, and also to view faxes to be sent identified via the \"Files to fax\" "
+"file selector dialog.  Specify here the command to be used to view "
+"postscript files.  If none is specified, the program will default to 'gv'.  "
+"Other possibilities you may want to specify are 'evince' (the Gnome image "
+"viewer) or 'kghostview' (the KDE postscript viewer). If using gv, you may "
+"need to use the '-media A4' or '-media Letter' option to select correct "
+"paper size.  evince and kghostview do this automatically"
+msgstr ""
+"El visualitzador postscript s'utilitza per veure els faxos enviats i rebuts, "
+"i també per veure i identificar els faxos per enviar a través del diàleg "
+"selector de fitxers «Fitxers per enviar». Especifiqueu aquí l'ordre per "
+"visualitzar fitxers postscript. Si no n'especifiqueu cap, el programa farà "
+"servir per defecte 'gv'. Una altra opció que us podria interessar és "
+"'evince' (el visualitzador postscript de Gnome) o 'kghostview' (el "
+"visualitzador postscript de KDE). Si feu servir gv, necessitareu afegir-hi "
+"les opcions '-media A4' o '-media Letter' per seleccionar correctament la "
+"mida del paper. ggv i kghostview ho fan automàticament"
+
+#: src/settings_help.cpp:163
+msgid "efax-gtk help: Postscript Viewer Program"
+msgstr "Ajuda de l'efax-gtk: programa visualitzador de postscript"
+
+#: src/settings_help.cpp:168
+msgid ""
+"This specifies whether a socket server is to be run for CUPS or  some other "
+"print system.  Check the box if it is to run"
+msgstr ""
+"Això especifica si el servidor de sòcol s'ha de posar en marxa per a CUPS o "
+"per a algun altre sistema d'impressió. Marqueu el camp si voleu que s'iniciï"
+
+#: src/settings_help.cpp:170
+msgid "efax-gtk help: Run socket server"
+msgstr "Ajuda de l'efax-gtk: inicia el servidor de sòcol"
+
+#: src/settings_help.cpp:172
+msgid ""
+"This specifies whether a pop-up dialog is to appear whenever a fax is "
+"received by the socket server from the print system.  Check the box if you "
+"want a dialog (this has no effect unless you have also checked the box for "
+"the socket server to run).  If the program is inactive or is standing by to "
+"receive faxes, the fax can be sent directly from this dialog"
+msgstr ""
+"Això especifica si un diàleg emergent ha d'aparèixer quan un fax és rebut "
+"per el servidor de sòcol des de el sistema d'impressió. Marqueu el camp si "
+"voleu un diàleg (això no te efecte si no teniu marcat el camp d'iniciar el "
+"servidor de sòcol) Si el programa està inactiu o està en mode d'espera per "
+"rebre faxos, el fax pot ser enviat directament des d'aquest diàleg"
+
+#: src/settings_help.cpp:180
+msgid ""
+"This specifies the port number on which the socket server is to listen.  It "
+"should be between 1024 and 65535."
+msgstr ""
+"Això especifica el número de port a on el servidor de sòcol ha d'escoltar. "
+"Ha de ser entre 1024 i 65535."
+
+#: src/settings_help.cpp:182
+msgid "efax-gtk help: Port"
+msgstr "Ajuda de l'efax-gtk: port"
+
+#: src/settings_help.cpp:184
+msgid ""
+"This determines whether addresses other than localhost and your machine's "
+"own host name will be allowed to make a connection to the socket. Unless you "
+"have unusual requirements (that is, unless the CUPS or lpd daemons are "
+"running on another machine), you should choose localhost.  If you want other "
+"machines to be able to connect, pick \"other\" and specify the hostnames of "
+"the computers which may connect (separating different hostnames by spaces, "
+"but you do not need to specify localhost and your machine's hostname, as "
+"those are always permitted).  Such hostnames may be specified as an ordinary "
+"host name or in numeric dot notation.  Numeric dot notation may have * as a "
+"trailing wildcard, so for example 10.1.* will permit access for addresses "
+"10.1.0.0 to 10.1.255.255.  You should run efax-gtk behind a firewall if you "
+"choose \"other\"."
+msgstr ""
+"Això determina si es permet connectar amb el servidor de sòcol a altres "
+"adreces que no siguin ni la teva màquina local ni el teu nom de domini. A no "
+"ser que tingueu requeriments inusuals (com per exemple, tindre els dimonis "
+"de CUPS o de lpd corrent en una altra màquina) podeu triar màquina local. Si "
+"voleu que altres màquines puguin connectar, trieu «altres» i especifiqueu "
+"els noms de domini de les màquines que poden connectar (separant els "
+"diferents noms de domini per espais, però no heu d'especificar la màquina "
+"local ni el nom de domini del vostre ordinador ja que sempre serà permesa). "
+"Tals noms de domini es poden especificar com un nom de domini ordinari o en "
+"notació numèrica amb punts. La notació numèrica amb punts pot tenir * com a "
+"comodí final, així que per exemple 10.1. * permetrà accés a les adreces "
+"10.1.0.0 a 10.1.255.255. Heu de fer córrer l'efax-gtk darrera un tallafoc si "
+"trieu «altres»."
+
+#: src/settings_help.cpp:195
+msgid "efax-gtk help: Socket connections allowed"
+msgstr "Ajuda de l'efax-gtk: connexions permeses al sòcol"
+
+#: src/settings_help.cpp:200
+msgid ""
+"This parameter specifies whether a pop-up dialog will appear when a fax is "
+"received from a modem. Check the box if you want a pop-up."
+msgstr ""
+"Aquest paràmetre especifica si voleu un diàleg emergent quan es rebi un fax "
+"des del mòdem. Marqueu el camp si voleu un avis emergent."
+
+#: src/settings_help.cpp:202
+msgid "efax-gtk help: Receive pop-up"
+msgstr "Ajuda de l'efax-gtk: emergent de recepció"
+
+#: src/settings_help.cpp:204
+msgid ""
+"This specifies whether a program or script is to be executed when a fax is "
+"received from a modem.  Check the box if you want to execute a program, and "
+"enter the program name.  efax-gtk comes with two scripts, print_fax and "
+"mail_fax, which can be used automatically to print a received fax or to mail "
+"it to a user (so to mail a fax you can enter `mail_fax' here).  See the "
+"README file for further details."
+msgstr ""
+"Això especifica si un programa o fitxer de seqüència s'ha d'executar quan "
+"des del mòdem es rebi un fax. Marqueu el camp si voleu executar un programa, "
+"i escrigueu-hi el nom. efax-gtk ve amb dos fitxers se seqüència, print_fax i "
+"mail_fax, els quals es poden fer servir per imprimir els faxos quan es reben "
+"ò enviar-los per correu a un usuari (per tant per enviar un correu amb un "
+"fax podeu escriure aquí 'mail_fax'). Llegiu el fitxer README per a més "
+"detalls."
+
+#: src/settings_help.cpp:210
+msgid "efax-gtk help: Execute program when fax received"
+msgstr "Ajuda de l'efax-gtk: executa un programa quan es rebi un fax"
+
+#: src/settings_help.cpp:215
+msgid ""
+"This specifies the resolution to which faxes are sent.  \"Standard\" gives "
+"204x98 and \"Fine\" gives 204x196"
+msgstr ""
+"Això especifica la resolució dels faxos que s'envien. «Estàndard» dona "
+"204x98 i «Fina» dona 204x196"
+
+#: src/settings_help.cpp:217
+msgid "efax-gtk help: Sent Fax Resolution"
+msgstr "Ajuda de l'efax-gtk: resolució d'enviament de faxos"
+
+#: src/settings_help.cpp:219
+msgid ""
+"This specifies whether the destination fax number is included in the top fax "
+"header line for sent faxes.  Uncheck the box if you do not want this to be "
+"shown (say because it includes a pay card access number)"
+msgstr ""
+"Això especifica si el número de fax del destinatari s'ha d'incloure a la "
+"capçalera dels faxos enviats. Desmarqueu el camp si no voleu que això es "
+"vegi (diguem que inclou un número d'accés d'una tarja de pagament)"
+
+#: src/settings_help.cpp:223
+msgid "efax-gtk help: Fax top header line"
+msgstr "Ajuda de l'efax-gtk: capçalera del fax"
+
+#: src/settings_help.cpp:225
+msgid ""
+"This specifies a prefix to be prepended to any dialed number - for example "
+"you can specify '9,' here to dial through a switchboard which needs 9 to "
+"obtain an outside line followed by a delay."
+msgstr ""
+
+#: src/settings_help.cpp:228
+msgid "efax-gtk help: Dial Prefix"
+msgstr ""
+
+#: src/settings_help.cpp:233
+msgid ""
+"This parameter specifies a log file to which progress on negotiations and "
+"fax status, and errors and warnings, are logged.  If none is specified, then "
+"no log file will be maintained.  (A log file can also be kept by redirecting "
+"stdout and stderr -- see the README file for further details)"
+msgstr ""
+"Aquest paràmetre especifica un fitxer de registre que segueix les "
+"negociacions i l'estat del fax, errors i advertiments son enregistrats. Si "
+"no s'en especifica cap, no es crearà cap registre (També es pot mantenir un "
+"fitxer de registre redireccionant stdout i stderr -- veure el fitxer README "
+"per més detalls)"
+
+#: src/settings_help.cpp:237
+msgid "efax-gtk help: Log File"
+msgstr "Ajuda de l'efax-gtk: fitxer de registre"
+
+#: src/settings_help.cpp:242
+msgid "Specify the page size for faxes here"
+msgstr "Especifiqueu aquí la mida de la pàgina per als faxos"
+
+#: src/settings_help.cpp:243
+msgid "efax-gtk help: Page Size"
+msgstr "Ajuda de l'efax-gtk: mida de la pàgina"
+
+#: src/helpfile.cpp:57
+msgid "efax-gtk: Help"
+msgstr "efax-gtk: ajuda"
+
+#: src/helpfile.cpp:77
+msgid "Sending"
+msgstr "Enviant"
+
+#: src/helpfile.cpp:84
+msgid "Receiving"
+msgstr "Rebent"
+
+#: src/helpfile.cpp:91
+msgid "Address Book"
+msgstr "Llibreta d'adreces"
+
+#: src/helpfile.cpp:98
+msgid "Fax Lists"
+msgstr "Llistes de faxos"
+
+#: src/helpfile.cpp:105
+msgid "Settings"
+msgstr "Preferències"
+
+#: src/helpfile.cpp:168
+msgid ""
+"\n"
+"Sending faxes\n"
+"-------------\n"
+"\n"
+"Before sending a fax, it must be specified in the \"Fax to send\" box. It "
+"must be in postscript format (a format produced by all Unix/Linux word and "
+"document processors), and will be converted by the program into the correct "
+"tiffg3 fax format.\n"
+"\n"
+"There are two fax entry methods.  First, the fax to be sent can be a file "
+"saved on the filesystem.  It can be entered manually in the \"Fax to send\" "
+"box, or entered by means of the file selection dialog.  If the file "
+"comprises a single postscript file, then you can find it by pressing the "
+"\"Single File\" button.  It can be more easily found with this dialog if it "
+"is placed in the $HOME/faxout directory.\n"
+"\n"
+"Where more than one file is specified in the \"Fax to send\" box, they will "
+"be sent as a single fax appended in the order in which they are entered in "
+"the box.  Such multiple files can be more easily selected using the file "
+"list brought up by pressing the \"Multiple Files\" button.  Pressing the "
+"\"Multiple Files\" button enables files to be found and added to the file "
+"list, and they can be reordered by using the Up or Down arrow buttons, or by "
+"dragging and dropping with the mouse.\n"
+"\n"
+"As an alternative, faxes can be received directly from the print system by "
+"means of a socket server provided by the program.  Efax-gtk maintains a list "
+"of queued faxes received from the socket which can be accessed by choosing "
+"\"Socket\" as the fax entry method, and then bringing up the queued faxes "
+"list by pressing the \"Socket list\" button.  This is a more convenient way "
+"of sending faxes from a word processor, and enables a fax to be sent for "
+"faxing to efax-gtk by printing from the word processor program.  Where a fax "
+"is queued for sending in the socket list, a small red circle will appear in "
+"the main program window on the right hand side of the \"Fax to send\" box.  "
+"For particulars of how to set up CUPS or lpr/lprng to send to efax-gtk, see "
+"the README file which comes with the distribution.\n"
+"\n"
+"The telephone number to which the fax is to be sent is entered into the "
+"\"Tel number\" box.  This can be entered directly into the box, or by using "
+"the built-in addressbook.  The addressbook can be invoked by pressing the "
+"\"Tel number\" button, or from the `File/Address book' pull-down menu item "
+"(see the \"Address Book\" tag in this help dialog). However, if a telephone "
+"connection has already been established with the remote fax receiver, then "
+"the fax can be sent without dialing by leaving the \"Tel number\" box blank "
+"(a dialog will come up asking if you would like to send the fax without "
+"dialing).\n"
+"\n"
+"When a fax is received from the print system via the socket server, the "
+"program settings can also be configured to bring up a dialog automatically.  "
+"If the program is inactive or is standing-by to receive faxes the fax can be "
+"sent directly from this dialog without the need to invoke the list of queued "
+"faxes received from the socket.\n"
+"\n"
+"Successfully sent faxes are copied to a directory in the $HOME/faxsent "
+"directory, which has a name derived from the year, month, day, hour and "
+"seconds when the sending of the fax was completed, and will appear in the "
+"faxes sent list.  They are only included in that list if they have been sent "
+"without error.  The efax message display box will report on the progress of "
+"a fax being sent.  The fax list can be brought up from the `File/List sent "
+"faxes' pull down menu item.  See \"Using the fax lists\" further below.\n"
+msgstr ""
+"\n"
+"Enviant Faxos\n"
+"-------------\n"
+"\n"
+"Abans d'enviar un fax, s'ha d'especificar al camp «Fax per enviar». Ha de "
+"ser en format postscript (un format produït per tots el editors i "
+"processador de documents de Unix/Linux), i aquest serà convertit pel "
+"programa al format correcte de fax tiffg3.\n"
+"\n"
+"Hi ha dos mètodes d'entrada de fax. El primer, el fax per enviar pot ser un "
+"fitxer desat al sistema de fitxers. Pot ser escrit manualment al camp «Fax "
+"per enviar», o introduït mitjançant el diàleg de selecció de fitxers. Si el "
+"fax compren un sol fitxer, llavors el podeu buscar prement el botó «Un "
+"fitxer». Es pot trobar més fàcilment amb aquest diàleg si és al directori "
+"$HOME/faxout.\n"
+"\n"
+"Quan s'especifiquen més d'un fitxer al camp «Fax per enviar», seran enviats "
+"com un sol fax ajuntant-los en l'ordre en que han estat inclosos al camp. "
+"Per seleccionar varis fitxers és més fàcil fer-ho prement el botó «Múltiples "
+"fitxers». Prement el botó «Múltiples fitxers» et permet trobar i afegir "
+"fitxers a la llista de fitxers i amés amés poden ser reordenats fent servir "
+"els botons amb les fletxes amunt i avall, o arrossegant i deixant amb el "
+"ratolí.\n"
+"\n"
+"Com a alternativa, els faxos poden ser rebuts directament des del sistema "
+"d'impressió mitjançant el servidor de sòcol proveït pel programa. Efax-gtk "
+"manté una llista dels faxos rebuts des del sòcol i que son accessibles "
+"seleccionant «Sòcol» com a mètode d'entrada de fax i accedir a la llista de "
+"faxos en cua prement el botó «Llista del sòcol». Aquesta és la forma més "
+"recomanable d'enviar faxos des de un processador de textos ja que permet "
+"enviar un fax a efax-gtk imprimint des del processador de textos. Quan un "
+"fax és posat a la cua de la llista del sòcol per ser enviat, un petit punt "
+"vermell apareixerà a la finestra principal del programa, a la dreta del camp "
+"«Fax per enviar». Per més informació de com ajustar CUPS o lpr/lprng per a "
+"enviar a efax-gtk, mireu el fitxer README que ve amb la distribució.\n"
+"\n"
+"El número de telèfon al que el fax serà enviat és al camp «Núm. telèfon». "
+"Pot ser escrit directament en aquest camp o utilitzant la llibreta d'adreces "
+"inclosa. La llibreta d'adreces es pot invocar prement el botó «Núm. telèfon» "
+"o des del menú 'Fitxer/Llibreta d'adreces'(mireu l'etiqueta «Llibreta "
+"d'Adreces» en aquesta finestra d'ajuda). Tant mateix, si ja s'ha establert "
+"una connexió amb el fax remot, llavors el fax pot ser enviat sense marcar "
+"tot deixant el camp «Núm. telèfon» en blanc (un diàleg apareixerà preguntant "
+"si voleu enviar el fax sense marcar).\n"
+"\n"
+"Quan un fax és rebut pel servidor de sòcol des del sistema d'impressió, les "
+"preferències del programa poden ser configurades per oferir un diàleg "
+"automàticament. Si el programa és inactiu o és en espera de rebre faxos, el "
+"fax pot ser enviat directament des d'aquest diàleg sense la necessitat "
+"d'invocar la llista de fax en cua rebuts del sòcol.\n"
+"\n"
+"Els faxos enviats correctament son copiats a un directori dins el directori "
+"$HOME/faxsent i que el nom que rep deriva de l'any, el mes, el dia, l'hora i "
+"els segons en que l'enviament del fax es va completar, i apareixerà a la "
+"Llista de faxos enviats. Només son inclosos en aquesta llista si s'han "
+"enviat sense cap error. La finestra de missatges de l'efax informarà del "
+"progrés del fax que s'està enviant. Es pot accedir a la llista de faxos des "
+"del menú 'Fitxer/Llista de faxos enviats'. Mireu l'etiqueta «Llista de "
+"Faxos» en aquesta finestra d'ajuda.\n"
+
+#: src/helpfile.cpp:234
+msgid ""
+"\n"
+"Receiving faxes\n"
+"---------------\n"
+"\n"
+"Three ways of receiving faxes are provided for.\n"
+"\n"
+"First, the program can be set to answer a fax call which is ringing but has "
+"not been answered, by pressing the \"Answer call\" button.\n"
+"\n"
+"Secondly, the program can take over a call which has already been answered "
+"(say, by a telephone hand set) by pressing the \"Take over call\" button.\n"
+"\n"
+"Thirdly, the program can be placed in standby mode by pressing the \"Standby"
+"\" button.  This will automatically answer any call after the number of "
+"rings specified in the efax-gtkrc file, and receive the fax. The program "
+"will keep on receiving faxes until the \"Stop\" button is pressed.\n"
+"\n"
+"Received faxes in tiffg3 format (one file for each page) are placed in a "
+"directory in the $HOME/faxin directory, which has a name derived from the "
+"year, month, day, hour and seconds when reception of the fax was completed, "
+"and is the fax ID number.\n"
+"\n"
+"Received faxes can be printed, viewed, described and managed using the built "
+"in fax list facility.  This can be brought up from the `File/List received "
+"faxes' pull down menu item.  See \"Using the fax lists\" further below.\n"
+"\n"
+"When a fax is received, a pop-up dialog can also be set to appear (go to the "
+"Settings dialog to do this).  In the settings dialog you can also specify a "
+"program to be executed when a fax is received.  The fax ID number is passed "
+"as the first (and only) argument to the program, which enables the program "
+"to find the fax in $HOME/faxin.  The distribution contains two executable "
+"scripts, mail_fax and print_fax, which can be used to e-mail a fax or print "
+"a fax to a user automatically when it is received.  (These scripts are not "
+"installed by 'make install' - if you want to use them, make them executable "
+"with 'chmod +x' and copy them to a directory which is in the system path "
+"such as /usr/local/bin, and then specify the script name in the settings "
+"dialog.)\n"
+msgstr ""
+"\n"
+"Recepció de faxos\n"
+"-----------------\n"
+"\n"
+"Hi ha tres mètodes per rebre faxos.\n"
+"\n"
+"El primer, el programa pot respondre una trucada que està sonant i que no ha "
+"estat resposta, prement el botó «Respon la trucada».\n"
+"\n"
+"El segon, el programa pot agafar una trucada que ja ha estat resposta (com "
+"per exemple, per mitjà d'un telèfon de mà) prement el botó «Agafa la "
+"trucada».\n"
+"\n"
+"El tercer, el programa es pot posar en mode d'espera prement el botó «En "
+"espera». Això farà que respongui qualsevol trucada després del nombre de "
+"timbres que s'hagi especificat al fitxer efax-gtkrc, i rebrà el fax. El "
+"programa es mantindrà a l'espera de rebre trucades fins que es premi el botó "
+"«Atura».\n"
+"\n"
+"Els faxos rebuts, en format tiffg3 (un fitxer cada pàgina) son copiats a un "
+"directori dins el directori $HOME/faxin i que el nom que rep deriva de "
+"l'any, el mes, el dia, l'hora i els segons en que la recepció del fax es va "
+"completar, i és el número ID del fax.\n"
+"\n"
+"Els faxos rebuts poden ser impresos, vistos, descrits i manipulats fent "
+"servir l'utilitat per a la llista de faxos inclosa. S'hi pot accedir des del "
+"menú 'Fixer/Llista de faxos rebuts'. Mireu l'etiqueta «Llista de Faxos» en "
+"aquesta finestra d'ajuda.\n"
+"\n"
+"Quan un fax s'ha rebut, un diàleg emergent pot ser ajustat per que aparegui "
+"(aneu al diàleg de les preferències per fer això). Al diàleg de preferències "
+"també podeu especificar que un programa s'executi quan es rebi un fax. El "
+"número d'ID del fax li és transmès com primer (i únic) argument al programa, "
+"i que permet al programa trobar el fax a $HOME/faxin. La distribució conté "
+"dos scripts executables, mail fax i print fax, i que poden ser utilitzats "
+"per a enviar per correu electrònic o imprimir un fax a un usuari "
+"automàticament quan és rebut. (Aquests scripts no son instal·lats amb 'make "
+"install' - si els voleu utilitzar, feu-los executables amb 'chmod +x' i els "
+"copieu a un directori que estigui inclòs al camí del sistema com per "
+"exemple /usr/local/bin, després especifiqueu el nom del fitxer de seqüència "
+"al diàleg de preferències.)\n"
+
+#: src/helpfile.cpp:279
+msgid ""
+"\n"
+"Using the address book\n"
+"----------------------\n"
+"\n"
+"To pick a telephone number from the address book, highlight the relevant "
+"address by pressing the left mouse button over it, and then press the \"OK\" "
+"button.\n"
+"\n"
+"Addresses can be added to the address book by pressing the add button, and "
+"then completing the relevant dialog which will appear.  To delete an address "
+"from the address book, highlight the relevant address and press the delete "
+"(trashcan) button.  The addressbook can be sorted by using the up and down "
+"arrow buttons on a highlighted address, or by dragging and dropping using "
+"the mouse.\n"
+msgstr ""
+"\n"
+"Utilitzant la llibreta d'adreces\n"
+"--------------------------------\n"
+"\n"
+"Per agafar un número de telèfon de la llibreta d'adreces, ressalta l'adreça "
+"pertinent fent clic amb el botó esquerra del ratolí, i després prem el botó "
+"«D'acord».\n"
+"\n"
+"Es poden afegir adreces a la llibreta d'adreces prement el botó 'Crear nova "
+"adreça' i omplint el pertinent diàleg que apareixerà. Per esborrar una "
+"adreça de la llibreta d'adreces, ressalta l'adreça pertinent i prem el botó "
+"'Esborra adreça' (escombraries). La llibreta d'adreces es pot ordenar tot "
+"fent servir els botons amb fletxa amunt i avall a una adreça ressaltada o "
+"arrossegant i deixant amb el ratolí.\n"
+
+#: src/helpfile.cpp:297
+msgid ""
+"\n"
+"Using the fax lists\n"
+"-------------------\n"
+"\n"
+"To bring up the fax lists, go to the the `File' menu and pick the `List "
+"received faxes' or `List sent faxes' menu item.  Highlight the fax to "
+"printed or viewed by pressing the left mouse button.  The programs to be "
+"used to print and view the fax are specifed in the efax-gtkrc configuration "
+"file, or if none are specified, the program will print using lpr (which will "
+"work for most Unix systems) and view with gv.\n"
+"\n"
+"To print faxes, a PRINT_SHRINK parameter can be specifed in efax-gtkrc to "
+"enable the fax page to fit within the printer margins.  A parameter of 98 "
+"will work with most printers.  This can be changed while the program is "
+"running by bringing up the `Settings' dialog and entering it into the `Print/"
+"Print Shrink' box.\n"
+"\n"
+"A description can be added to a received fax when appearing in a fax list "
+"(or subsequently amended) by pressing the relevant button -- this will "
+"enable faxes to be more easily identified.\n"
+"\n"
+"The received faxes list will show, at the far right of the tool bar, the "
+"number of faxes received since the program was last started.  If efax-gtk is "
+"in receive standby mode, the `tooltips' for the program's icon in the system "
+"tray will also indicate this number.  The count can be reset to 0 without "
+"restarting the program by pressing the reset button in the received faxes "
+"list.\n"
+msgstr ""
+"\n"
+"Utilitzant les llistes de faxos\n"
+"-------------------------------\n"
+"\n"
+"Per accedir a les llites de faxos, aneu al menú 'Fitxer' i trieu 'Llista de "
+"faxos rebuts' o 'Llista de faxos enviats'. Ressalteu el fax a imprimir o "
+"visualitzar feny clic amb el boto esquerra del ratolí. Els programes "
+"utilitzats per imprimir i visualitzar els faxos estan especificats al fitxer "
+"de configuració efax-gtkrc, i si no ni ha cap d'especificat, el programa "
+"imprimirà fent servir lpr (que funcionarà en la majoria de sistemes Unix) i "
+"visualitzar amb gv.\n"
+" \n"
+"Per imprimir faxos, el paràmetre PRINT_SHRINK pot ser especificat a efax-"
+"gtkrc per permetre ajusta la pàgina del fax dins dels marges de "
+"l'impressora. Un valor de 98 anirà be per a la majoria d'impressores. Això "
+"es pot modificar mentre el programa és en marxa, accedint al diàleg de "
+"preferències i entrant al camp 'Impr./Reducció d'impressió'.\n"
+"\n"
+"Es pot afegir una descripció a un fax rebut quan apareix a la llista de "
+"faxos (o posteriorment corregir) prement el botó pertinent -- això permetrà "
+"que els faxos siguin més fàcilment identificables.\n"
+"\n"
+"La llista de faxos rebuts mostrarà, a la dreta de la barra d'eines, el "
+"nombre de faxos rebuts des de que el programa es va iniciar per última "
+"vegada. Si efax-gtk és en espera de recepció de faxos, el rètol indicador de "
+"l'icona del programa a l'àrea de notificació també mostrarà aquest nombre. "
+"El comptador es pot reajustar a 0 sense re-iniciar el programa prement el "
+"botó 'Esborrar comptador de faxos nous' a la llista de faxos rebuts.\n"
+
+#: src/helpfile.cpp:329
+msgid ""
+"\n"
+"Settings\n"
+"--------\n"
+"\n"
+"The program settings can be changed by manually editing the efax-gtk "
+"configuration file comprising $HOME/.efax-gtkrc, $sysconfdir/efax-gtkrc or /"
+"etc/efax-gtkrc.  The file is searched for in that order, so $HOME/.efax-"
+"gtkrc takes precedence over the other two.\n"
+"\n"
+"The configuration file can also be set by using the Settings dialog launched "
+"from the `File/Settings' pull down menu item.  The settings entered using "
+"this dialog are always stored as $HOME/.efax-gtkrc. Accordingly, if the "
+"Settings dialog has been used, and you want to revert to the global "
+"settings, this can be done either by deleting the $HOME/.efax-gtkrc file, or "
+"by pressing the `Reset' button in the Settings dialog, which will reload the "
+"Settings dialog from the global configuration file ($sysconfdir/efax-gtkrc "
+"or /etc/efax-gtkrc).\n"
+"\n"
+"Help can be obtained when filling out the Settings dialog by holding the "
+"mouse over the relevant help (?) button, which will bring up a \"Tips\" "
+"display, or by pressing the button, which will bring up an information "
+"display.\n"
+msgstr ""
+"\n"
+"Preferències\n"
+"------------\n"
+"\n"
+"Les preferències del programa poden ser canviades manualment editant el "
+"fitxer de configuració de l'efax-gtk que consta de $HOME/.efax-gtkrc, "
+"$sysconfdir/efax-gtkrc o /etc/efax-gtkrc. Els fitxers son buscats en aquest "
+"ordre, per tant $HOME/.efax-gtkrc te preferència sobre els altres dos.\n"
+"\n"
+"El fitxer de configuració es pot modificar també fent servir el diàleg de "
+"preferències des de el menú 'Fitxer/Preferències'. Les preferències "
+"introduïdes en aquest diàleg son sempre guardades a $HOME/.efax-gtkrc. Per "
+"tant, si el diàleg de preferències s'ha fet servir i voleu retornar a les "
+"preferències globals, això es pot fer tant esborrant el fitxer $HOME/.efax-"
+"gtkrc com prement el botó Restablir del diàleg de preferències, el qual "
+"rellegirà les preferències des del fitxer de configuració global "
+"($sysconfdir/efax-gtkrc o /etc/efax-gtkrc).\n"
+"\n"
+"L'ajuda es pot obtenir metre omples els camps del diàleg de preferències "
+"mantenint el cursó del ratolí sobre el pertinent botó d'ajuda (?), el qual "
+"et mostrarà un «rètol indicador» o prement el botó que et mostrarà una "
+"finestra d'informació.\n"
+
+#: src/socket_server.cpp:153
+msgid "Socket running on port "
+msgstr "Sòcol funcionant al port "
+
+#: src/socket_server.cpp:254
+msgid "Print job received on socket\n"
+msgstr "Trebal d'impressió rebut al sòcol\n"
+
+#: src/socket_server.cpp:301
+msgid "Closing the socket\n"
+msgstr "Tancant el sòcol\n"
+
+#: src/socket_list.cpp:119
+msgid "efax-gtk: Queued faxes from socket"
+msgstr "efax-gtk: Faxos en cua des del sòcol"
+
+#: src/socket_list.cpp:163
+msgid "Queued print jobs"
+msgstr "Treballs d'impressió en cua"
+
+#: src/socket_list.cpp:207
+msgid "Enter selected fax to send"
+msgstr "Entra el fax seleccionat per enviar"
+
+#: src/socket_list.cpp:213
+msgid "Choose the selected fax for sending"
+msgstr "Tria el fax seleccionat per enviar"
+
+#: src/socket_list.cpp:327 src/socket_list.cpp:334 src/socket_notify.cpp:91
+#: src/socket_notify.cpp:101 src/socket_notify.cpp:106
+msgid "PRINT JOB: "
+msgstr "TREBALL D'IMPRESSIÖ: "
+
+#: src/socket_list.cpp:492
+msgid "Remove "
+msgstr "Esborra "
+
+#: src/socket_list.cpp:499
+msgid "efax-gtk: Remove queued fax"
+msgstr "efax-gtk: esborrar fax en cua"
+
+#: src/socket_notify.cpp:70
+msgid "efax-gtk: print job received on socket"
+msgstr "efax-gtk: treball d'impressió rebut al sòcol"
+
+#: src/socket_notify.cpp:76
+msgid "Queue fax"
+msgstr "Fax a la cua"
+
+#: src/socket_notify.cpp:94 src/socket_notify.cpp:107
+msgid ""
+" has been received on socket.\n"
+"Send or queue fax?"
+msgstr ""
+" s'ha rebut al sòcol.\n"
+"Enviar el fax o posar a la cua?"
+
+#: src/logger.cpp:116 src/logger.cpp:265
+msgid "Beginning fax log: "
+msgstr "Iniciant registre del fax:"
+
+#: src/logger.cpp:164 src/logger.cpp:216
+msgid "Ending fax log: "
+msgstr "Finalitzant el registre del fax:"
+
+#: src/logger.cpp:297
+msgid "Cannot open log file for reading"
+msgstr "No es pot llegir el fitxer de registre"
+
+#: src/logger.cpp:298
+msgid "efax-gtk: print logfile"
+msgstr "efax-gtk: imprimir el fitxer de registre"
+
+#: src/logger.cpp:351
+msgid "Cannot open log file for viewing"
+msgstr "No es pot visualitzar el fitxer de registre"
+
+#: src/logger.cpp:352
+msgid "efax-gtk: view logfile"
+msgstr "efax-gtk: visualitzar el fitxer de registre"
+
+#: src/logger.cpp:417
+msgid "efax-gtk: View log"
+msgstr "efax-gtk: visualitzar el registre"
+
+#: src/tray_icon.cpp:129
+msgid "List received faxes"
+msgstr "Llista de faxos rebuts"
+
+#: src/tray_icon.cpp:137
+msgid "List sent faxes"
+msgstr "Llista de faxos enviats"
+
+#: src/tray_icon.cpp:159
+msgid "Receive standby"
+msgstr "Recepció en espera"
+
+#: src/tray_icon.cpp:178
+msgid "Quit"
+msgstr "Surt"
+
+#: src/tray_icon.cpp:278 src/tray_icon.cpp:286
+msgid "efax-gtk: "
+msgstr "efax-gtk: "
+
+#: src/utils/file_print_manager.cpp:212
+msgid "No valid printer selected\n"
+msgstr "No s'ha seleccionat cap impressora vàlida\n"
+
+#: src/utils/text_print_manager.cpp:246
+msgid "No file to print specified"
+msgstr "No s'ha especificat cap fitxer per imprimir"
+
+#: src/utils/text_print_manager.cpp:504
+msgid "Font: "
+msgstr "Tipus de lletra:"
+
+#: src/utils/text_print_manager.cpp:505
+msgid "Font size: "
+msgstr "Mida de lletra:"
+
+#: src/utils/text_print_manager.cpp:546
+msgid "Print font"
+msgstr "Tipus de lletra per imprimir"
+
+#: efax/efax.c:381
+msgid "success"
+msgstr "amb èxit"
+
+#: efax/efax.c:382
+msgid "number busy or modem in use"
+msgstr "Número ocupat o mòdem en ús"
+
+#: efax/efax.c:383
+msgid "unrecoverable error"
+msgstr "error irrecuperable"
+
+#: efax/efax.c:384
+msgid "invalid modem response"
+msgstr "resposta del mòdem invàlida"
+
+#: efax/efax.c:385
+msgid "no response from modem"
+msgstr "sense resposta del mòdem"
+
+#: efax/efax.c:386
+msgid "terminated by signal"
+msgstr "interromput per una senyal"
+
+#: efax/efax.c:387
+msgid "internal error"
+msgstr "error intern"
+
+#: efax/efax.c:397
+msgid "NSC - poller features"
+msgstr "NSC - característiques del sondeig"
+
+#: efax/efax.c:400
+msgid "CIG - poller ID"
+msgstr "CIG - id del sondeig"
+
+#: efax/efax.c:403
+msgid "DTC - poller capabilities"
+msgstr "DTC - capacitats del sondeig"
+
+#: efax/efax.c:406
+msgid "NSF - answering features"
+msgstr "NSF - característiques de la resposta"
+
+#: efax/efax.c:409
+msgid "CSI - answering ID"
+msgstr "CSI - id de la resposta"
+
+#: efax/efax.c:412
+msgid "DIS - answering capabilities"
+msgstr "DIS - capacitats de la resposta"
+
+#: efax/efax.c:415
+msgid "NSS - caller features"
+msgstr "NSS - característiques del trucant"
+
+#: efax/efax.c:418
+msgid "TSI - caller ID"
+msgstr "TSI - id del trucant"
+
+#: efax/efax.c:421
+msgid "DCS - session format"
+msgstr "DCS - format de sessió"
+
+#: efax/efax.c:425
+msgid "CFR - channel OK"
+msgstr "CFR - canal correcte"
+
+#: efax/efax.c:428
+msgid "FTT - channel not OK"
+msgstr "FTT - canal no correcte"
+
+#: efax/efax.c:432
+msgid "MPS - not done"
+msgstr "MPS - no fet"
+
+#: efax/efax.c:435
+msgid "EOM - not done, new format"
+msgstr "EOM - no fet, format nou"
+
+#: efax/efax.c:438
+msgid "EOP - done"
+msgstr "EOP - fet"
+
+#: efax/efax.c:442
+msgid "PRI-MPS - not done, call operator"
+msgstr "PRI-MPS - no fet, cridar operador"
+
+#: efax/efax.c:445
+msgid "PRI-EOM - not done, new format, call operator"
+msgstr "PRI-EOM - no fet, nou format, crida operador"
+
+#: efax/efax.c:448
+msgid "PRI-EOP - done, call operator"
+msgstr "PRI-EOP - fet, crida operador"
+
+#: efax/efax.c:452
+msgid "MCF - page OK"
+msgstr "MCF - pàgina correcta"
+
+#: efax/efax.c:455
+msgid "RTP - page OK, check channel"
+msgstr "RTP - pàgina correcta, verifica canal"
+
+#: efax/efax.c:458
+msgid "PIP - page OK, call operator"
+msgstr "PIP - pàgina correcta, crida operador"
+
+#: efax/efax.c:461
+msgid "RTN - page not OK, check channel"
+msgstr "RTN - pàgina no correcta, verifica canal"
+
+#: efax/efax.c:464
+msgid "PIN - page not OK, call operator"
+msgstr "PIN - pàgina no correcta, crida operador"
+
+#: efax/efax.c:468
+msgid "CRP - repeat command"
+msgstr "CRP - repetir ordre"
+
+#: efax/efax.c:471
+msgid "DCN - disconnect"
+msgstr "DCN - desconnexió"
+
+#: efax/efax.c:474
+msgid "UNKNOWN"
+msgstr "DESCONEGUT"
+
+#: efax/efax.c:631
+msgid "incompatible local and remote capabilities"
+msgstr "les capacitats locals i remotes són incompatibles"
+
+#: efax/efax.c:712 efax/efax.c:722 efax/efax.c:734
+#, c-format
+msgid "can't delete file %s:"
+msgstr "no es pot esborrar el fitxer %s:"
+
+#: efax/efax.c:715 efax/efax.c:725 efax/efax.c:737
+#, c-format
+msgid "removed file: %s"
+msgstr "fitxer suprimit: %s"
+
+#: efax/efax.c:786
+msgid "header:"
+msgstr "capçalera:"
+
+#: efax/efax.c:870
+msgid "characters received while sending"
+msgstr "caràcters rebuts mentre s'enviava"
+
+#: efax/efax.c:908
+#, c-format
+msgid "sent %d+%d lines and %d+%d bytes, in %d secs at %d bps"
+msgstr "enviades %d+%d línies i %d+%d octets, en %d segons a %d bps"
+
+#: efax/efax.c:917
+msgid "flow control did not work"
+msgstr "control de flux no funciona"
+
+#: efax/efax.c:956
+msgid "modem response in data"
+msgstr "resposta del mòdem en dades"
+
+#: efax/efax.c:975
+msgid "run length buffer overflow"
+msgstr "corren sobreeiximent de memòria intermèdia longitudinal"
+
+#: efax/efax.c:1038
+msgid "file write:"
+msgstr "fitxer escrit:"
+
+#: efax/efax.c:1040
+msgid "CAN: data reception cancelled"
+msgstr "CAN: recepció de dades cancel·lada"
+
+#: efax/efax.c:1046 efax/efax.c:1047 efax/efax.c:2159
+msgid "reception errors"
+msgstr "errors de recepció"
+
+#: efax/efax.c:1057
+#, c-format
+msgid "received %d lines with %d errors"
+msgstr "rebudes %d línies amb %d errors"
+
+#: efax/efax.c:1109
+#, c-format
+msgid "sent TCF - channel check of %d bytes"
+msgstr "enviat TCF - verificació de canal de %d octets"
+
+#: efax/efax.c:1145
+msgid "timed out during training check data"
+msgstr "temps sobrepassat mentre es provava de verificar les dades"
+
+#: efax/efax.c:1158
+#, c-format
+msgid "received TCF - channel check (OK: run of %d in %d)"
+msgstr "rebut TCF - verificació de canal (correcte: corrent de %d en %d)"
+
+#: efax/efax.c:1161
+#, c-format
+msgid "received TCF - channel check (not OK: run of %d in %d)"
+msgstr "rebut TCF - verificació de canal (no correcte: corrent de %d en %d)"
+
+#: efax/efax.c:1216
+msgid "last byte of frame is NULL"
+msgstr "l'últim octet de la trama és NULL"
+
+#: efax/efax.c:1224
+msgid "sent"
+msgstr "enviat"
+
+#: efax/efax.c:1255
+msgid "HDLC frame missing initial 0xff"
+msgstr "HDLC 0xff inicial manca a la trama "
+
+#: efax/efax.c:1262
+msgid "bit-reversed HDLC frame, reversing bit order"
+msgstr "trama HDLC amb marc invertit; s'està invertint l'ordre dels bits"
+
+#: efax/efax.c:1283
+msgid "timed out reading frame data"
+msgstr "temps sobrepassat llegint dades de la trama"
+
+#: efax/efax.c:1293
+msgid "frame error"
+msgstr "error a la trama"
+
+#: efax/efax.c:1296
+msgid "no response after frame data"
+msgstr "sense resposta després de dades de la trama"
+
+#: efax/efax.c:1299
+msgid "wrong response after frame data"
+msgstr "resposta incorrecta després de dades de la trama"
+
+#: efax/efax.c:1306
+#, c-format
+msgid "frame too long (%d, > %d max bytes)"
+msgstr "trama massa llarga (%d, > %d màx. octets)"
+
+#: efax/efax.c:1373
+msgid "wrong carrier"
+msgstr "portadora incorrecta"
+
+#: efax/efax.c:1378
+msgid "wrong response to command to receive a frame"
+msgstr "resposta incorrecta a l'ordre de rebre una trama"
+
+#: efax/efax.c:1386
+#, c-format
+msgid "received short frame (%d bytes)"
+msgstr "rebuda trama curta (%d octets)"
+
+#: efax/efax.c:1393
+msgid "received"
+msgstr "rebut"
+
+#: efax/efax.c:1411
+msgid "The remote ID is"
+msgstr "l'ID remot és"
+
+#: efax/efax.c:1461
+msgid "no answer from remote fax"
+msgstr "sense resposta del fax remot"
+
+#: efax/efax.c:1466 efax/efax.c:1507 efax/efax.c:1578
+msgid "can't open page"
+msgstr "no puc obrir la pàgina"
+
+#: efax/efax.c:1484
+msgid "remote has one or more documents to send and can receive"
+msgstr "el remot té un o més documents per enviar i pot rebre"
+
+#: efax/efax.c:1486
+msgid "remote has one or more documents to send and cannot receive"
+msgstr "el remot té un o més documents per enviar i no pot rebre"
+
+#: efax/efax.c:1490
+msgid "remote has no documents to send and can receive"
+msgstr "el remot no té documents per enviar i pot rebre"
+
+#: efax/efax.c:1492
+msgid "remote has no documents to send and cannot receive"
+msgstr "el remot no té documents per enviar i no pot rebre"
+
+#: efax/efax.c:1497
+msgid "remote cannot receive, trying anyways"
+msgstr "el remot no pot rebre, provant de totes maneres"
+
+#: efax/efax.c:1500
+msgid "remote has nothing to send, trying anyways"
+msgstr "el remot no té res per enviar, provant de totes maneres"
+
+#: efax/efax.c:1554
+#, c-format
+msgid "channel not usable at %d bps"
+msgstr "canal no usable a %d bps"
+
+#: efax/efax.c:1563
+msgid "channel not usable at lowest speed"
+msgstr "canal no usable a la velocitat més baixa"
+
+#: efax/efax.c:1571
+msgid "invalid response to DCS"
+msgstr "resposta invàlida a DCS"
+
+#: efax/efax.c:1625 efax/efax.c:2055
+#, c-format
+msgid "sent page %s"
+msgstr "enviada pàgina %s"
+
+#: efax/efax.c:1653
+msgid "invalid post-page response"
+msgstr "resposta després de pàgina invàlida"
+
+#: efax/efax.c:1697
+msgid "interrupt request ignored"
+msgstr "ignorada sol·licitud d'interrupció"
+
+#: efax/efax.c:1747
+msgid "timed out waiting for command"
+msgstr "temps sobrepassat esperant l'ordre"
+
+#: efax/efax.c:1792 efax/efax.c:2128
+#, c-format
+msgid "page saved to %s"
+msgstr "pàgina desada a %s"
+
+#: efax/efax.c:1839
+msgid "unrecognized command"
+msgstr "ordre no reconeguda"
+
+#: efax/efax.c:1845
+msgid "no command or response from remote"
+msgstr "sense ordre ni resposta del remot"
+
+#: efax/efax.c:1871
+#, c-format
+msgid "abnormal termination (code %d)"
+msgstr "finalització anormal (codi %d)"
+
+#: efax/efax.c:1920
+msgid "no XON/DC2 received after CONNECT"
+msgstr "no s'ha rebut XON/DC2 després de CONNECT"
+
+#: efax/efax.c:1929
+#, c-format
+msgid "%d characters received while waiting to send"
+msgstr "%d caràcters rebuts mentre esperava per enviar"
+
+#: efax/efax.c:1977
+msgid "remote has one or more documents to send."
+msgstr "el remot te un o més documents per enviar."
+
+#: efax/efax.c:2045
+msgid "no +FPTS response obtained, it is assumed that fax was received"
+msgstr ""
+"no s'ha obtingut la resposta +FPTS, s'assumeix que aquell fax l'ha rebut"
+
+#: efax/efax.c:2083
+msgid "too many page send retries"
+msgstr "masses intens d'enviar la pàgina"
+
+#: efax/efax.c:2173
+msgid "receive (+FDR) command failed"
+msgstr "rebre (+FDR) ordre fallida"
+
+#: efax/efax.c:2200
+#, c-format
+msgid "dialing %s"
+msgstr "marcant %s"
+
+#: efax/efax.c:2210
+#, c-format
+msgid "The remote ID is %s"
+msgstr "l'ID del remot és %s"
+
+#: efax/efax.c:2218
+msgid "called"
+msgstr "cridat"
+
+#: efax/efax.c:2221 efax/efax.c:2224
+msgid "connected"
+msgstr "connectat"
+
+#: efax/efax.c:2226
+msgid "number is busy"
+msgstr "el número comunica"
+
+#: efax/efax.c:2228
+msgid "dial command failed"
+msgstr "ordre de marcatge fallida"
+
+#: efax/efax.c:2306
+msgid "waiting for activity"
+msgstr "esperant activitat"
+
+#: efax/efax.c:2308
+msgid "activity detected"
+msgstr "activitat detectada"
+
+#: efax/efax.c:2315
+msgid "can't answer: can't lock device"
+msgstr "no es pot respondre: no es pot bloquejar el dispositiu"
+
+#: efax/efax.c:2334
+#, c-format
+msgid "too many %%d escapes in command (%s)"
+msgstr "masses %%d escapaments a l'ordre (%s)"
+
+#: efax/efax.c:2341 efax/efax.c:2364
+#, c-format
+msgid "executing command /bin/sh -c %s"
+msgstr "executant l'ordre /bin/sh -c %s"
+
+#: efax/efax.c:2347 efax/efax.c:2370
+msgid "exec() call failed:"
+msgstr "crida a exec() fallida:"
+
+#: efax/efax.c:2350
+msgid "no getty command defined for data call"
+msgstr "ordre 'getty' no definida per la trucada de dades"
+
+#: efax/efax.c:2355
+msgid "fax call answered"
+msgstr "trucada de fax resposta"
+
+#: efax/efax.c:2358
+msgid "voice call answered"
+msgstr "trucada de veu resposta"
+
+#: efax/efax.c:2373
+msgid "no voice command defined for voice call"
+msgstr "ordre de veu no definida per la trucada de veu"
+
+#: efax/efax.c:2386
+msgid "unable to answer call"
+msgstr "incapaç de respondre la trucada"
+
+#: efax/efax.c:2427
+msgid "modem does not support fax"
+msgstr "el mòdem no te suport per a fax"
+
+#: efax/efax.c:2432
+msgid "can't determine fax modem class support"
+msgstr "no es pot determinar la classe de fax mòdem suportada"
+
+#: efax/efax.c:2455
+msgid "Multi-Tech bit order set"
+msgstr "Multi-Tech ordre de bit activat"
+
+#: efax/efax.c:2462
+#, c-format
+msgid "using %s in class %s"
+msgstr "usan %s en classe %s"
+
+#: efax/efax.c:2547
+#, c-format
+msgid "failed page %s"
+msgstr "la pàgina %s fallida"
+
+#: efax/efax.c:2558
+#, c-format
+msgid "finished - %s"
+msgstr "finalitzat _ %s"
+
+#: efax/efax.c:2664
+#, c-format
+msgid "local ID (%s) truncated to %d characters"
+msgstr "l'ID local (%s) retallada a %d caràcters"
+
+#: efax/efax.c:2671
+#, c-format
+msgid "local ID (%s) has non-standard characters"
+msgstr "l'ID local (%s) te caràcters no estàndard"
+
+#: efax/efax.c:2707
+msgid "using line buffering of stdout"
+msgstr "usan la línia d'emplenament de la memòria intermèdia del stdout"
+
+#: efax/efax.c:2729
+#, c-format
+msgid "incorrect quality (-q) argument (%s)"
+msgstr "argument de qualitat (-q) incorrecte (%s)"
+
+#: efax/efaxmsg.c:210
+msgid " Error: "
+msgstr " Error: "
+
+#: efax/efaxmsg.c:211
+msgid " Warning: "
+msgstr " Atenció: "
+
+#: efax/efaxlib.c:1233 efax/efaxlib.c:1325 efax/efaxlib.c:1347
+#, c-format
+msgid "can't open file %s:"
+msgstr "no es pot obrir el fitxer %s:"
+
+#: efax/efaxlib.c:1370
+#, c-format
+msgid "can't get format of file %s"
+msgstr "no es pot obtenir el format del fitxer %s"
+
+#: efax/efaxlib.c:1391
+#, c-format
+msgid "can't rewind file %s:"
+msgstr "no es pot  rebobinar el fitxer %s:"
+
+#: efax/efaxlib.c:1993
+#, c-format
+msgid "can't open output file %s:"
+msgstr "no es pot obrir el fitxer de sortida %s"
+
+#: efax/efaxio.c:135
+msgid "fax device write error:"
+msgstr "error d'escriptura del dispositiu de fax:"
+
+#: efax/efaxio.c:264
+#, c-format
+msgid "unexpected response \"%s\""
+msgstr "resposta inesperada «%s»"
+
+#: efax/efaxio.c:274
+#, c-format
+msgid "modem command \"%s\" too long"
+msgstr "ordre del mòdem «%s» massa llarg"
+
+#: efax/efaxio.c:322
+#, c-format
+msgid "timed out after command: %s"
+msgstr "temps sobrepassat després de l'ordre: %s"
+
+#: efax/efaxio.c:328
+msgid "timed out after waiting"
+msgstr "temps sobrepassat després d'esperar"
+
+#: efax/efaxio.c:332
+#, c-format
+msgid "wrong response after command: %s"
+msgstr "resposta incorrecta després de l'ordre: %s"
+
+#: efax/efaxio.c:338
+msgid "wrong response after waiting"
+msgstr "resposta incorrecta després d'esperar"
+
+#: efax/efaxio.c:367
+msgid "sync: dropping DTR"
+msgstr "sync: deixant DTR"
+
+#: efax/efaxio.c:373
+msgid "sync: sending escapes"
+msgstr "sync: enviant escapaments"
+
+#: efax/efaxio.c:385
+msgid "sync: modem not responding"
+msgstr "sync: mòdem no respon"
+
+#: efax/efaxio.c:415
+#, c-format
+msgid "modem command (%s) failed"
+msgstr "ordre de mòdem (%s) fallida"
+
+#: efax/efaxio.c:421
+msgid "modem command failed"
+msgstr "ordre de mòdem fallida"
+
+#: efax/efaxio.c:472
+#, c-format
+msgid "%s locked or busy - waiting"
+msgstr "%s bloquejat o ocupat - esperant"
+
+#: efax/efaxio.c:497
+#, c-format
+msgid "opened %s"
+msgstr "s'ha obert %s"
+
+#~ msgid ""
+#~ " configuration file\n"
+#~ "and /dev/modem does not exist\n"
+#~ msgstr ""
+#~ " fitxer de configuració\n"
+#~ "i /dev/modem no existeix\n"
+
+#~ msgid ""
+#~ " configuration file\n"
+#~ "Using default of /dev/modem\n"
+#~ msgstr ""
+#~ " fitxer de configuració\n"
+#~ "Utilitzant opció per defecte de /dev/modem\n"
